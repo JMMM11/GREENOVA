@@ -1,0 +1,975 @@
+{
+  "meta": {
+    "siteName": "GREENOVA",
+    "locale": "en_US",
+    "home": {
+      "title": "GREENOVA | Transplant-ready seedlings grown in Panama",
+      "description": "Corn, cucumber and tomato seedlings germinated in an automated chamber in La Chorrera, Panama Oeste. Each one ships with a traceability label and care guide."
+    },
+    "about": {
+      "title": "About GREENOVA | A student-run company in La Chorrera",
+      "description": "Meet GREENOVA: our mission, vision, values and the team at Escuela Secundaria Pedro Pablo Sánchez who turned a science project into a company."
+    },
+    "products": {
+      "title": "Corn, cucumber and tomato seedlings | GREENOVA Panama",
+      "description": "GREENOVA seedling profiles: days to delivery, sowing depth, temperature, watering, and formats by the unit, by the tray or as a scheduled order."
+    },
+    "solutions": {
+      "title": "Seedlings for gardens, schools and growers | GREENOVA",
+      "description": "Seedlings for home gardens, school and community gardens, small growers and restaurants in Panama Oeste, with a replacement guarantee and delivery."
+    },
+    "innovation": {
+      "title": "An Arduino germination chamber with sensors | GREENOVA",
+      "description": "Inside the GREENOVA chamber: an Arduino UNO, LED grow light, automatic ventilation, five sensors and a microSD log that records every batch."
+    },
+    "process": {
+      "title": "Our five-stage production process | GREENOVA Panama",
+      "description": "From sowing to dispatch: the five stages every GREENOVA seedling goes through, with a protocol per species and documented times, temperatures and watering."
+    },
+    "projects": {
+      "title": "Projects: the chamber, trials and school garden | GREENOVA",
+      "description": "How we built the germination chamber, what the first corn, cucumber and tomato trial showed, and how our seedlings went into the school garden."
+    },
+    "contact": {
+      "title": "Contact and seedling orders | GREENOVA in La Chorrera",
+      "description": "Write to GREENOVA for orders, scheduled orders for school gardens or questions. Our pick-up point is at Escuela Secundaria Pedro Pablo Sánchez."
+    },
+    "privacy": {
+      "title": "Privacy notice | GREENOVA, seedlings in Panama Oeste",
+      "description": "What data the GREENOVA contact form collects, what we use it for, how long we keep it and how to exercise your rights to access and deletion."
+    },
+    "terms": {
+      "title": "Terms and conditions of website use | GREENOVA Panama",
+      "description": "Terms of use for the GREENOVA website: intellectual property of texts and images, the scope of the information published, and liability."
+    },
+    "cookies": {
+      "title": "Cookie notice for this website | GREENOVA Panama Oeste",
+      "description": "The GREENOVA website uses no tracking or advertising cookies. Here we explain what technical storage exists and how you can manage it."
+    },
+    "notFound": {
+      "title": "Page not found | GREENOVA",
+      "description": "The page you are looking for does not exist or has moved. Go back to the GREENOVA home page to see our seedlings."
+    },
+    "shop": {
+      "title": "Seedling shop: order online, no account | GREENOVA Panama",
+      "description": "Order corn, cucumber and tomato seedlings by the unit or by the tray, with 10% off from 24 seedlings. Pick up at the school or get delivery in La Chorrera."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "solutions": "Solutions",
+    "products": "Products",
+    "innovation": "Innovation",
+    "process": "Process",
+    "projects": "Projects",
+    "contact": "Contact",
+    "privacy": "Privacy notice",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "skip": "Skip to content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "langLabel": "Language",
+    "langSwitch": "View this page in Spanish",
+    "homeLink": "GREENOVA, go to home page",
+    "shop": "Shop",
+    "cart": "View order"
+  },
+  "common": {
+    "lema": "Where the future grows",
+    "learnMore": "Learn more",
+    "pending": "To be confirmed",
+    "photoCredit": "Photography: the GREENOVA team"
+  },
+  "hero": {
+    "title": "Where the future grows",
+    "subtitle": "Corn, cucumber and tomato seedlings germinated in an automated chamber, ready to plant in your garden.",
+    "cta": "Order seedlings",
+    "secondary": "How we grow them",
+    "posterAlt": "Corn seedlings under the LED light of the GREENOVA germination chamber"
+  },
+  "home": {
+    "intro": {
+      "title": "A plant that has already sprouted",
+      "text": "Most home gardens fail at germination. We germinate in a chamber full of sensors and hand you a plant that has already sprouted.",
+      "img1": "Germination chamber with trays"
+    },
+    "value": {
+      "title": "What a seed can't give you",
+      "items": [
+        {
+          "name": "Grown in a controlled environment",
+          "text": "Temperature, air humidity, soil moisture, light and air quality are measured by sensors, and every batch is logged to a microSD card."
+        },
+        {
+          "name": "Traceable from batch to garden",
+          "text": "Every seedling carries a label with its species, batch code, sowing date, age in days and care tips."
+        },
+        {
+          "name": "Planted without touching the roots",
+          "text": "The biodegradable fibre cell goes into the ground whole, which avoids root damage, the main reason home transplants fail."
+        }
+      ]
+    },
+    "catalogue": {
+      "title": "The catalogue",
+      "text": "Three species, chosen for their value in a garden and for the results of our own trials.",
+      "link": "See the full profiles"
+    },
+    "solutions": {
+      "title": "Who we grow for",
+      "text": "Homes, classrooms, community gardens, small growers and kitchens across Panama Oeste."
+    },
+    "innovation": {
+      "title": "Inside the chamber",
+      "text": "An Arduino UNO board runs the LED grow light and the ventilation, while five sensors record the conditions of every batch.",
+      "link": "See how it works",
+      "caption": "Two chambers in the school lab, holding twelve-cell trays."
+    },
+    "diff": {
+      "title": "What nobody else here offers",
+      "text": "No nursery, farm-supply store or market seller in the area offers germinated vegetable seedlings, documented traceability and online ordering all at once.",
+      "items": [
+        {
+          "name": "Replacement guarantee",
+          "text": "If a seedling fails to take within three days of transplanting, we replace it free of charge when you show its label."
+        },
+        {
+          "name": "Even seedlings",
+          "text": "Seedlings from the same batch grow evenly, which makes it easier to plan your garden."
+        },
+        {
+          "name": "Grown locally",
+          "text": "Germinated in La Chorrera with no middlemen, within a ten-kilometre radius."
+        },
+        {
+          "name": "Guide included",
+          "text": "Short guidance on how to transplant, common watering mistakes and a sowing calendar."
+        }
+      ]
+    },
+    "growth": {
+      "title": "From a seed to a new life",
+      "text": "Follow a corn seedling through the five stages of our process. Choose a stage to see it.",
+      "stageLabel": "Stage",
+      "loading": "Loading the 3D scene",
+      "canvasLabel": "3D model of a corn seedling in its cell, at the selected stage",
+      "stages": [
+        {
+          "name": "Sowing",
+          "time": "1 day",
+          "text": "The corn seed goes two to three centimetres deep into moist substrate inside its cell, and the batch is logged."
+        },
+        {
+          "name": "Germination",
+          "time": "48 hours",
+          "text": "In the chamber, at 20 to 30 °C with 12 to 14 hours of light, corn reached one hundred percent germination in our trial."
+        },
+        {
+          "name": "Early growth",
+          "time": "5 to 20 days",
+          "text": "On the growing shelf, under supplementary light and kept moist but never waterlogged, the first leaves appear."
+        },
+        {
+          "name": "Hardening off",
+          "time": "3 to 7 days",
+          "text": "The seedling is moved outdoors bit by bit so its tissue toughens and it reaches transplant without stress."
+        },
+        {
+          "name": "Ready for your garden",
+          "time": "Corn: 10 to 14 days",
+          "text": "With two or three true leaves and twelve to eighteen centimetres tall, it is labelled with its batch and dispatched."
+        }
+      ]
+    },
+    "cta": {
+      "title": "A school, community or home garden?",
+      "text": "Tell us what you want to plant and when. For institutional orders we reserve production two weeks in advance.",
+      "link": "Send us your order",
+      "photoAlt": "A member of the GREENOVA team"
+    }
+  },
+  "planner": {
+    "title": "When will your seedling be ready?",
+    "text": "Pick a species and the date you want to transplant. We'll show you the label your seedling would carry and the latest day to order it.",
+    "species": "Species",
+    "date": "I want to transplant on",
+    "label": "Traceability label",
+    "lot": "Batch code",
+    "sown": "Sowing date",
+    "age": "Age at transplant",
+    "care": "Care",
+    "orderBy": "Order before",
+    "orderNote": "Institutional orders: two weeks before sowing.",
+    "tooSoon": "We can't make that date: this seedling needs at least {min} days. The earliest possible date is {date}.",
+    "example": "Illustrative example. The real code is assigned when the batch is sown.",
+    "pick": "Choose a date to see the label.",
+    "cta": "Order this seedling",
+    "days": "days"
+  },
+  "species": {
+    "maiz": {
+      "name": "Corn",
+      "code": "MZ",
+      "fact": "100% germination at 48 hours in our trial",
+      "delivery": "10 to 14 days",
+      "readyMin": 10,
+      "readyMax": 14,
+      "depth": "2 to 3 cm",
+      "temp": "20 to 30 °C",
+      "light": "12 to 14 hours",
+      "water": "Keep moist, never waterlogged",
+      "ready": "2 to 3 true leaves, 12 to 18 cm tall",
+      "use": "The favourite of school gardens: it visibly grows within days, which makes it ideal for teaching.",
+      "alt": "Corn seedlings under LED light, each with its batch label"
+    },
+    "pepino": {
+      "name": "Cucumber",
+      "code": "PP",
+      "fact": "100% germination at 48 hours in our trial",
+      "delivery": "12 to 18 days",
+      "readyMin": 12,
+      "readyMax": 18,
+      "depth": "1 to 2 cm",
+      "temp": "25 to 30 °C",
+      "light": "12 to 14 hours",
+      "water": "Moderate watering: it is sensitive to excess water",
+      "ready": "Formed roots and developed true leaves",
+      "use": "Our fastest seller: a short cycle to harvest and steady demand in Panamanian kitchens.",
+      "alt": "Sprouts in biodegradable fibre cells"
+    },
+    "tomate": {
+      "name": "Tomato",
+      "code": "TM",
+      "fact": "Germinates in 5 to 8 days; target of 85% or more within eight days",
+      "delivery": "25 to 35 days",
+      "readyMin": 25,
+      "readyMax": 35,
+      "depth": "0.5 cm",
+      "temp": "22 to 28 °C",
+      "light": "14 to 16 hours",
+      "water": "Light, frequent misting",
+      "ready": "Formed roots, true leaves and hardened tissue",
+      "use": "The longest cycle in the catalogue, with its own germination protocol.",
+      "alt": "Young seedlings in biodegradable cells"
+    }
+  },
+  "products": {
+    "title": "Seedlings ready to transplant",
+    "intro": "A GREENOVA seedling is germinated in a biodegradable cell, with formed roots and developed true leaves, and hardened off for outdoor conditions.",
+    "specs": {
+      "delivery": "Delivery",
+      "depth": "Sowing depth",
+      "temp": "Chamber temperature",
+      "light": "Photoperiod",
+      "water": "Watering",
+      "ready": "On delivery"
+    },
+    "tomatoNote": {
+      "title": "Why tomato has its own protocol",
+      "text": "In the first trial, tomato reached 37.5% at 72 hours. That wasn't a failure: the species takes five to eight days to germinate, and we measured too early. The improvement plan came out of that reading.",
+      "items": [
+        "Evaluate each batch for at least eight days before discarding seed.",
+        "Keep the chamber between 25 and 28 °C during germination.",
+        "Pre-germinate on damp paper for the 24 hours before sowing.",
+        "Use certified seed with a recent packing date."
+      ]
+    },
+    "formats": {
+      "title": "Formats",
+      "text": "All of them come in a biodegradable fibre cell that is planted whole.",
+      "items": [
+        {
+          "name": "Single",
+          "text": "One seedling, for starting or topping up a garden."
+        },
+        {
+          "name": "Tray of 12",
+          "text": "Twelve cells of a single species."
+        },
+        {
+          "name": "Mixed tray",
+          "text": "All three species in one tray."
+        },
+        {
+          "name": "Scheduled order",
+          "text": "For institutions: production reserved two weeks in advance."
+        }
+      ]
+    },
+    "gallery": {
+      "title": "From the lab to the garden",
+      "items": [
+        {
+          "img": "led-maiz-3",
+          "name": "Corn under LED light",
+          "fact": "A batch label in every cell"
+        },
+        {
+          "img": "brotes-celda-1",
+          "name": "First sprouts",
+          "fact": "Biodegradable fibre cell"
+        },
+        {
+          "img": "plantones-led",
+          "name": "True leaves",
+          "fact": "Growing shelf"
+        },
+        {
+          "img": "aclimatacion-2",
+          "name": "Labelled seedlings",
+          "fact": "Ready for dispatch"
+        },
+        {
+          "img": "led-detalle",
+          "name": "Leaf detail",
+          "fact": "Supplementary light"
+        },
+        {
+          "img": "aclimatacion-1",
+          "name": "Hardening off",
+          "fact": "Gradual exposure outdoors"
+        }
+      ]
+    }
+  },
+  "solutions": {
+    "title": "Seedlings for the way you grow",
+    "intro": "We sell what the technology produces, not the technology: healthy, even, transplant-ready seedlings in the format your garden needs.",
+    "indexTitle": "Find your case",
+    "audiences": [
+      {
+        "id": "hogares",
+        "name": "Home gardens",
+        "need": "A yard, a terrace or pots. Three to twelve seedlings a month or a season.",
+        "offer": "Sold by the unit, so you never buy more than you'll plant, with a short transplant guide.",
+        "img": "brotes-celda-2"
+      },
+      {
+        "id": "comunidad-educativa",
+        "name": "The school community",
+        "need": "Students, teachers and staff at our school and nearby ones. One to six seedlings a week.",
+        "offer": "Pick-up at the school stand during breaks and after classes.",
+        "img": "equipo-1"
+      },
+      {
+        "id": "huertos-escolares",
+        "name": "School and community gardens",
+        "need": "Institutional projects that need three to ten trays every quarter.",
+        "offer": "Scheduled orders two weeks ahead, with free direct delivery from five trays.",
+        "img": "huerto-1"
+      },
+      {
+        "id": "productores",
+        "name": "Small growers",
+        "need": "Backyard growers who would rather skip the seedbed. Five to twenty trays per cycle.",
+        "offer": "Even trays by species, so you can plan the transplant in one go.",
+        "img": "aclimatacion-1"
+      },
+      {
+        "id": "restaurantes",
+        "name": "Restaurants and diners",
+        "need": "Kitchens that want to grow their own fresh produce. One to five trays every two months.",
+        "offer": "Mixed or single-species trays, with the origin of every batch documented.",
+        "img": "led-maiz-4"
+      }
+    ],
+    "services": {
+      "title": "Included with every order",
+      "items": [
+        {
+          "id": "garantia",
+          "name": "Replacement guarantee",
+          "text": "If a seedling fails to take within three days of transplanting, we replace it free of charge when you show its traceability label."
+        },
+        {
+          "id": "trazabilidad",
+          "name": "Traceability label",
+          "text": "Species, batch code, sowing date, age in days and care tips on every seedling."
+        },
+        {
+          "id": "acompanamiento",
+          "name": "Learning support",
+          "text": "Short guidance on the three steps of transplanting, common watering mistakes and the sowing calendar for Panama Oeste."
+        },
+        {
+          "id": "entrega",
+          "name": "Delivery and pick-up",
+          "text": "Pick-up at the school, coordination by message and direct delivery within ten kilometres for orders of five trays or more."
+        }
+      ]
+    },
+    "channels": {
+      "title": "Where to order",
+      "items": [
+        {
+          "name": "At the school",
+          "text": "Display and pick-up stand at Escuela Secundaria Pedro Pablo Sánchez."
+        },
+        {
+          "name": "Online",
+          "text": "The order form on this site, with a pick-up date based on the batches available."
+        },
+        {
+          "name": "Social and messaging",
+          "text": "Quick orders, questions and delivery arrangements."
+        }
+      ]
+    }
+  },
+  "innovation": {
+    "title": "Technology working for germination",
+    "intro": "The chamber started as a science project in the school lab. Today it is the company's production asset.",
+    "diagram": {
+      "title": "How the chamber works",
+      "text": "Sensors measure, the board decides and the actuators correct. Everything is logged per batch.",
+      "sensors": "Sensors",
+      "brain": "Arduino UNO",
+      "actuators": "Actuators",
+      "log": "Logging",
+      "sensorList": [
+        "Temperature",
+        "Air humidity",
+        "Soil moisture",
+        "Light",
+        "Air quality"
+      ],
+      "actuatorList": [
+        "LED grow light",
+        "Automatic ventilation"
+      ],
+      "logList": [
+        "Real-time clock",
+        "microSD card"
+      ],
+      "aria": "Diagram: five sensors send data to the Arduino UNO board, which controls the LED light and ventilation and logs everything with a real-time clock to a microSD card."
+    },
+    "results": {
+      "title": "What the trial measured",
+      "items": [
+        {
+          "value": "100%",
+          "name": "Corn",
+          "text": "germination at 48 hours"
+        },
+        {
+          "value": "100%",
+          "name": "Cucumber",
+          "text": "germination at 48 hours"
+        },
+        {
+          "value": "37.5%",
+          "name": "Tomato",
+          "text": "at 72 hours, before completing its natural 5 to 8 day cycle"
+        }
+      ]
+    },
+    "capacity": {
+      "title": "Capacity",
+      "items": [
+        {
+          "value": "96",
+          "text": "cells per batch: eight trays of twelve"
+        },
+        {
+          "value": "3 to 4",
+          "text": "batches a month, since only germination uses the chamber"
+        },
+        {
+          "value": "400 to 500",
+          "text": "seedlings a month of estimated capacity"
+        }
+      ],
+      "note": "The real limit is the growing shelf, not the chamber: growing means adding a second shelf."
+    },
+    "protocol": {
+      "title": "One protocol per species",
+      "text": "Reading the tomato trial correctly changed the process: each species has its own depth, temperature, photoperiod and watering.",
+      "link": "See the five stages"
+    },
+    "background": {
+      "title": "Standing on others' shoulders",
+      "text": "Work at the Technological University of Panama had already shown that low-cost automation works for seedbeds. GREENOVA adds what that work didn't cover: turning the system into a production unit with its own business model.",
+      "refs": [
+        "González, Morales, García & Villarreal (2018). A controlled environment for urban-garden seedbeds with FreeRTOS and Arduino. UTP.",
+        "Sánchez, Ruiloba, Morales & Sánchez (2021). Arduino-automated irrigation for germinating Cucumis sativus seeds. UTP."
+      ]
+    },
+    "photoAlt": "Inside the chamber: sensors, LED lamps and corn seedlings"
+  },
+  "process": {
+    "title": "Five stages, one protocol per species",
+    "intro": "Every batch follows the same sequence. What changes between corn, cucumber and tomato is depth, temperature, light and watering.",
+    "stages": [
+      {
+        "name": "Sowing and logging",
+        "time": "1 day",
+        "text": "Seed selection, moistened substrate, filling the cells and sowing at each species' depth: corn at 2 to 3 cm, cucumber at 1 to 2 cm, tomato at half a centimetre. The batch is logged.",
+        "img": "camara-bandejas",
+        "alt": "Cell trays with substrate in front of the chamber"
+      },
+      {
+        "name": "Germination in the chamber",
+        "time": "2 to 8 days",
+        "text": "20 to 30 °C for corn, 25 to 30 °C for cucumber and 22 to 28 °C for tomato. The sensors log each batch's conditions to the microSD card.",
+        "img": "plantones-camara",
+        "alt": "Seedlings germinating inside the chamber with sensors"
+      },
+      {
+        "name": "Early growth",
+        "time": "5 to 20 days",
+        "text": "A growing shelf with supplementary light, watering tailored to each species and a daily health check.",
+        "img": "led-maiz-1",
+        "alt": "Corn seedlings growing under LED lamps"
+      },
+      {
+        "name": "Hardening off",
+        "time": "3 to 7 days",
+        "text": "Gradual exposure to outdoor conditions to toughen the tissue and reduce transplant stress.",
+        "img": "aclimatacion-1",
+        "alt": "Trays of seedlings outdoors while hardening off"
+      },
+      {
+        "name": "Selection and dispatch",
+        "time": "When the cycle is complete",
+        "text": "Weak seedlings are discarded; the rest are labelled for traceability, grouped by format and dispatched.",
+        "img": "aclimatacion-2",
+        "alt": "Labelled seedlings grouped by tray"
+      }
+    ],
+    "loss": "We expect a ten percent loss between seedlings discarded as weak and health losses.",
+    "waste": "Substrate waste and discarded plant material are composted at the school. We use no restricted crop-protection products."
+  },
+  "projects": {
+    "title": "What we have already done",
+    "intro": "GREENOVA didn't start as a business plan. It started with a hand-built chamber and a trial that taught us to read our data carefully.",
+    "items": [
+      {
+        "id": "camara",
+        "name": "Building the chamber",
+        "text": "On an adapted glass container we fitted the Arduino board, the LED grow light, the ventilation and the sensors. The team soldered, wired and calibrated every module in the school lab.",
+        "imgs": [
+          "construccion-2",
+          "construccion-1",
+          "construccion-4",
+          "camara-prototipo"
+        ]
+      },
+      {
+        "id": "ensayo",
+        "name": "The first germination trial",
+        "text": "Corn and cucumber reached one hundred percent at 48 hours. Tomato reached 37.5% at 72 hours; the analysis showed we had measured before its natural cycle ended, which led to the protocol per species.",
+        "imgs": [
+          "brotes-celda-1",
+          "brotes-celda-2"
+        ]
+      },
+      {
+        "id": "huerto",
+        "name": "The Pedro Pablo Sánchez school garden",
+        "text": "Our seedlings were transplanted into the school's garden, where the team prepared the ground, planted and watered.",
+        "imgs": [
+          "huerto-1",
+          "equipo-siembra",
+          "huerto-2"
+        ]
+      },
+      {
+        "id": "actualizacion",
+        "name": "The latest chamber upgrade",
+        "text": "The current version adds a second chamber and more lamps, with room for eight twelve-cell trays per batch.",
+        "imgs": [
+          "camara-v2",
+          "camara-laboratorio"
+        ]
+      }
+    ],
+    "pending": {
+      "title": "Partnerships",
+      "text": "This is where we will list the school gardens, community gardens and customers who work with GREENOVA, always with their permission."
+    }
+  },
+  "about": {
+    "title": "A company born in the lab",
+    "intro": "GREENOVA is a student-run company at Escuela Secundaria Pedro Pablo Sánchez in La Chorrera, Panama Oeste. We grow and sell corn, cucumber and tomato seedlings germinated under controlled conditions.",
+    "story": {
+      "title": "From science project to company",
+      "text": [
+        "Urban gardening is growing in Panama because fresh vegetables keep getting more expensive. Yet most people who want to grow their own fail at the very first step: getting the seed to germinate.",
+        "We built an automated chamber to take that uncertainty away. Once the data showed it worked, in 2026 we wrote the business plan to turn the prototype into a production unit."
+      ]
+    },
+    "mission": {
+      "title": "Mission",
+      "text": "To grow and offer high-quality seedlings using automation that ensures the right conditions for germination and growth, promoting accessible, sustainable and innovative gardening for homes, schools and small growers in Panama Oeste."
+    },
+    "vision": {
+      "title": "Vision",
+      "text": "By 2029, to be a benchmark student-run company in the province, known for the quality of its products, its innovation and its contribution to environmental education and urban growing."
+    },
+    "values": {
+      "title": "Values",
+      "items": [
+        {
+          "name": "Sustainability",
+          "text": "in how we use water and energy."
+        },
+        {
+          "name": "Innovation",
+          "text": "applied to how we produce."
+        },
+        {
+          "name": "Quality",
+          "text": "in selecting plant material."
+        },
+        {
+          "name": "Responsibility",
+          "text": "in fulfilling every order."
+        },
+        {
+          "name": "Education",
+          "text": "as our contribution to the community."
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "Our philosophy",
+      "quote": "“Our customers don't buy a seed and a promise. They buy a plant that has already sprouted.”"
+    },
+    "goals": {
+      "title": "First-year goals",
+      "items": [
+        "Produce 450 seedlings a month by the sixth month of operation.",
+        "Keep germination at 85% or higher for all three species.",
+        "Recover the initial investment within six months.",
+        "Launch the catalogue and ordering website in the first quarter.",
+        "Bring on at least three school or community gardens as repeat customers."
+      ]
+    },
+    "team": {
+      "title": "The people behind it",
+      "members": [
+        "Jahir Magallón",
+        "Lionel Prudencio",
+        "Francisco Atencio",
+        "Daryelis Morales"
+      ],
+      "advisorLabel": "Faculty advisor",
+      "advisor": "Ariel Castroverde",
+      "school": "Escuela Secundaria Pedro Pablo Sánchez · Twelfth grade, Science track",
+      "photoAlt": "The GREENOVA team and their faculty advisor beside the germination chamber",
+      "areasTitle": "Four areas of work",
+      "areas": [
+        {
+          "name": "Production",
+          "text": "Sowing, batch management, health checks and plant selection."
+        },
+        {
+          "name": "Technology",
+          "text": "Running the chamber, calibrating sensors, analysing data and maintenance."
+        },
+        {
+          "name": "Sales and marketing",
+          "text": "Customer care, the website, social media, orders and deliveries."
+        },
+        {
+          "name": "Finance",
+          "text": "Costs, income, inventory, cash and monthly reports."
+        }
+      ]
+    },
+    "heroAlt": "GREENOVA team members holding seedlings at the school garden"
+  },
+  "contact": {
+    "title": "Let's talk about your garden",
+    "intro": "Orders, scheduled orders for institutions or transplanting questions. We reply during school hours.",
+    "where": {
+      "title": "Pick-up point",
+      "school": "Escuela Secundaria Pedro Pablo Sánchez",
+      "city": "La Chorrera, Panama Oeste",
+      "hours": "Open during breaks and after classes, on school days.",
+      "map": "See the location on OpenStreetMap"
+    },
+    "direct": {
+      "title": "Direct contact",
+      "email": "Email",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram"
+    }
+  },
+  "form": {
+    "title": "Order or enquiry form",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "company": "School, garden or business (optional)",
+    "type": "What is it about?",
+    "types": {
+      "pedido": "Seedling order",
+      "encargo": "Scheduled order for an institution",
+      "consulta": "Growing or transplanting question",
+      "otro": "Something else"
+    },
+    "typePlaceholder": "Choose an option",
+    "message": "Message",
+    "messageHint": "Species, quantity and the date you want to transplant.",
+    "privacy": "I have read and accept the",
+    "privacyLink": "privacy notice",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "success": "Message sent. We'll reply during school hours.",
+    "networkError": "We couldn't send your message. Check your connection and try again.",
+    "notConfigured": "Online sending hasn't been set up yet. In the meantime, message us on Instagram at @greenova.4; your message has not been sent.",
+    "prefill": "I'd like {species} to transplant on {date}.",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email, for example name@example.com.",
+      "type": "Please choose what your message is about.",
+      "message": "Tell us a little more: at least 20 characters.",
+      "privacy": "You need to accept the privacy notice to send.",
+      "summary": "Please check the highlighted fields."
+    }
+  },
+  "footer": {
+    "signoff": "See you in the garden",
+    "message": "GREENOVA is a student-run company in La Chorrera that germinates corn, cucumber and tomato seedlings in an automated chamber and delivers them ready to transplant.",
+    "navTitle": "Site",
+    "servicesTitle": "Included",
+    "legalTitle": "Legal",
+    "stampAlt": "Corn seedlings under LED light",
+    "rights": "All rights reserved."
+  },
+  "legal": {
+    "updated": "Last updated",
+    "pendingNote": "Fields in square brackets must be completed by GREENOVA before the site goes live.",
+    "privacy": {
+      "title": "Privacy notice",
+      "sections": [
+        {
+          "h": "Data controller",
+          "p": [
+            "[LEGAL NAME], registered at [REGISTERED ADDRESS] with tax ID [RUC], is responsible for the data you send through this site. Contact: [CONTACT EMAIL]."
+          ]
+        },
+        {
+          "h": "What we collect",
+          "p": [
+            "Only what you type into the contact form: your name, email address, phone number and organisation if you choose to give them, the type of enquiry and your message.",
+            "This site uses no tracking, analytics or advertising cookies."
+          ]
+        },
+        {
+          "h": "What we use it for",
+          "p": [
+            "To answer your enquiry, prepare your order and arrange delivery. We do not use it for advertising and we do not sell it."
+          ]
+        },
+        {
+          "h": "How long we keep it",
+          "p": [
+            "While we handle your request and for [RETENTION PERIOD] afterwards, unless the law requires us to keep it longer."
+          ]
+        },
+        {
+          "h": "Who else receives it",
+          "p": [
+            "The service that delivers form messages: [FORM PROVIDER]. We share your data with no one else unless legally required."
+          ]
+        },
+        {
+          "h": "Your rights",
+          "p": [
+            "You can ask to access, correct, delete or object to the use of your data by writing to [CONTACT EMAIL], under Panama's Law 81 of 2019 on Personal Data Protection."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms and conditions",
+      "sections": [
+        {
+          "h": "Using this site",
+          "p": [
+            "This site provides information about GREENOVA's seedlings and services and lets you send enquiries. By using it you accept these terms."
+          ]
+        },
+        {
+          "h": "Intellectual property",
+          "p": [
+            "The texts, photographs, logo and the slogan “Where the future grows” belong to GREENOVA or their authors and may not be reproduced without written permission."
+          ]
+        },
+        {
+          "h": "Published information",
+          "p": [
+            "Germination and delivery times are based on our trials and each species' protocol. They may vary with the seed, the weather and the season."
+          ]
+        },
+        {
+          "h": "Orders and guarantee",
+          "p": [
+            "Orders are confirmed in writing. The replacement guarantee covers seedlings that fail to take within three days of transplanting, on presentation of the traceability label."
+          ]
+        },
+        {
+          "h": "Liability",
+          "p": [
+            "GREENOVA is not responsible for how a crop turns out once transplanted, since that depends on the garden's conditions and care."
+          ]
+        },
+        {
+          "h": "Company details",
+          "p": [
+            "[LEGAL NAME] · Tax ID [RUC] · [REGISTERED ADDRESS] · Business notice [NUMBER]."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie notice",
+      "sections": [
+        {
+          "h": "What we use",
+          "p": [
+            "This site sets no tracking, analytics, advertising or social media cookies. Fonts, images and video are served from our own domain.",
+            "The shop keeps your cart in your browser's local storage (localStorage) so it isn't lost when you change page. It is technical, isn't used to track you, and you can delete it by emptying the cart or clearing the site's data."
+          ]
+        },
+        {
+          "h": "Why there is no banner",
+          "p": [
+            "Since nothing tracks you, we don't need to ask for consent. If we ever add analytics, it will stay off until you accept it from a notice that lets you accept or decline."
+          ]
+        },
+        {
+          "h": "Managing cookies",
+          "p": [
+            "You can delete or block cookies in your browser settings at any time."
+          ]
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "This page didn't sprout",
+    "text": "The address doesn't exist or has changed. Head back home to see our seedlings.",
+    "link": "Back to home"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "What exactly is a GREENOVA seedling?",
+        "a": "A seedling germinated in a biodegradable fibre cell, with formed roots and developed true leaves, hardened off for outdoor conditions. It arrives ready to transplant."
+      },
+      {
+        "q": "Which species do you sell and when are they ready?",
+        "a": "Corn, cucumber and tomato. Corn is delivered 10 to 14 days after sowing, cucumber at 12 to 18 days and tomato at 25 to 35 days."
+      },
+      {
+        "q": "How do I transplant it?",
+        "a": "Plant the biodegradable cell whole, without pulling the seedling out. That avoids root damage, the main reason home transplants fail. Every purchase includes a short guide."
+      },
+      {
+        "q": "What if the seedling doesn't take?",
+        "a": "If it fails to take within three days of transplanting, we replace it free of charge when you show its traceability label."
+      },
+      {
+        "q": "What's on the label?",
+        "a": "The species, batch code, sowing date, age in days and care tips."
+      },
+      {
+        "q": "Where can I buy?",
+        "a": "At the pick-up stand at Escuela Secundaria Pedro Pablo Sánchez during breaks and after classes, through the form on this site, or via social media and messaging."
+      },
+      {
+        "q": "Do you deliver?",
+        "a": "We arrange deliveries within a ten-kilometre radius. Institutional orders of five trays or more are delivered directly at no extra cost."
+      },
+      {
+        "q": "How far ahead should a school garden order?",
+        "a": "Scheduled orders for institutions reserve production two weeks in advance."
+      }
+    ]
+  },
+  "shop": {
+    "title": "Order your seedlings",
+    "intro": "Pick a species and format, check the total and send us your order. No account or sign-up: your cart is saved in your browser.",
+    "kinds": {
+      "unit": "Single",
+      "tray": "Tray of 12",
+      "mixed": "Mixed tray"
+    },
+    "mixedName": "Corn, cucumber and tomato",
+    "mixedNote": "Four cells of each species.",
+    "perSeedling": "per seedling",
+    "cells": "{n} seedlings",
+    "ready": "Ready in {n} days or more",
+    "add": "Add",
+    "addTo": "Add {name} to your order",
+    "added": "Added",
+    "decrease": "Remove one",
+    "increase": "Add one",
+    "qty": "Quantity",
+    "filterAll": "All",
+    "filterLabel": "Filter by format",
+    "perks": [
+      {
+        "name": "10% off from 24 seedlings",
+        "text": "The discount is applied to the order total."
+      },
+      {
+        "name": "Replacement guarantee",
+        "text": "If it fails to take within three days of transplanting, we replace it with its label."
+      },
+      {
+        "name": "No online payment",
+        "text": "We write to you to confirm availability, date and how to pay."
+      }
+    ],
+    "cellOne": "1 seedling"
+  },
+  "cart": {
+    "title": "Your order",
+    "empty": "You haven't added any seedlings yet.",
+    "browse": "Go to the shop",
+    "close": "Close order",
+    "remove": "Remove {name}",
+    "subtotal": "Subtotal",
+    "discount": "Volume discount (10%)",
+    "discountHint": "Add {n} more seedlings to get 10% off.",
+    "total": "Total",
+    "seedlings": "{n} seedlings",
+    "checkout": "Continue with the order",
+    "back": "Back to cart",
+    "date": "Pick-up or delivery date",
+    "dateHint": "The earliest possible date is {date}, based on germination time.",
+    "method": "How you'll get it",
+    "methods": {
+      "retiro": "Pick-up at Escuela Secundaria Pedro Pablo Sánchez",
+      "entrega": "Delivery within 10 km of La Chorrera"
+    },
+    "deliveryNote": "Free for institutional orders of five trays or more. Otherwise, we agree the cost with you.",
+    "contactHint": "Leave us an email or a phone number, at least one.",
+    "notes": "Notes (optional)",
+    "submit": "Send order",
+    "sending": "Sending…",
+    "success": "Order sent. We'll write to confirm availability and the date.",
+    "notConfigured": "Online ordering hasn't been set up yet, so your order has not been sent. Copy it and send it to us on Instagram at @greenova.4.",
+    "copy": "Copy order",
+    "copied": "Order copied",
+    "noCharge": "This form charges nothing: GREENOVA confirms every order in writing.",
+    "summary": "GREENOVA order",
+    "errors": {
+      "contact": "Enter a valid email or a phone number.",
+      "date": "Choose a date from {date} onwards."
+    }
+  },
+  "parallax": {
+    "title": "Where the future grows",
+    "text": "Every seedling leaves the chamber with its batch, its date and its story."
+  }
+}
