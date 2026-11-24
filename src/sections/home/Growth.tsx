@@ -8,7 +8,7 @@ import { StaggeredFade } from "../../components/motion/StaggeredFade";
 const SeedlingCanvas = lazy(() => import("../../components/3d/SeedlingCanvas"));
 
 /** Foto real por etapa: póster del 3D, fallback en móvil/gama baja y secuencia deslizable. */
-const STAGE_IMG: ImageName[] = ["camara-bandejas", "brotes-celda-2", "plantones-camara", "aclimatacion-1", "led-maiz-3"];
+const STAGE_IMG: ImageName[] = ["camara-bandejas", "brotes-celda-2", "plantones-camara", "aclimatacion-1", "led-maiz-3", "huerto-1"];
 
 /** 3D solo en escritorio con puntero fino, WebGL y memoria suficiente; se monta al acercarse a la sección. */
 function use3D(ref: React.RefObject<HTMLElement | null>) {
@@ -34,13 +34,12 @@ export function Growth() {
 
   return (
     <section ref={section} className="section-y overflow-hidden bg-sand" aria-labelledby="growth-h">
-      <div className="container-page">
-        <StaggeredFade id="growth-h" text={t.title} className="text-h2 max-w-[16ch]" />
-        <RevealText className="mt-4 max-w-[46ch] text-lg leading-relaxed">{t.text}</RevealText>
-
-        {/* Escritorio: etapas a la izquierda, escena a la derecha */}
-        <div className="mt-14 hidden gap-10 lg:grid lg:grid-cols-12">
-          <ol className="flex flex-col gap-1 lg:col-span-5">
+      <div className="container-page lg:grid lg:grid-cols-12 lg:gap-10">
+        {/* Escritorio: titular y etapas a la izquierda; la escena a la derecha, fija mientras se recorren */}
+        <div className="lg:col-span-5">
+          <StaggeredFade id="growth-h" text={t.title} className="text-h2 max-w-[16ch]" />
+          <RevealText className="mt-4 max-w-[46ch] text-lg leading-relaxed">{t.text}</RevealText>
+          <ol className="mt-10 hidden flex-col gap-1 lg:flex">
             {t.stages.map((s, i) => (
               <li key={s.name}>
                 <button
@@ -60,7 +59,9 @@ export function Growth() {
               </li>
             ))}
           </ol>
-          <div className="relative aspect-[4/5] max-h-[78vh] w-full overflow-hidden rounded-[var(--radius-media)] lg:col-span-7">
+        </div>
+        <div className="hidden lg:col-span-7 lg:block">
+          <div className="relative sticky top-24 h-[min(84vh,820px)] w-full overflow-hidden rounded-[var(--radius-media)]">
             {show3D ? (
               <Suspense fallback={<StagePhoto i={active} />}>
                 <SeedlingCanvas stage={active} label={t.canvasLabel} labelText={labelText} />
@@ -70,6 +71,9 @@ export function Growth() {
             )}
           </div>
         </div>
+      </div>
+
+      <div className="container-page">
 
         {/* Móvil y tablet: una foto real por etapa, se cambia deslizando */}
         <ol className="-mx-4 mt-10 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-4 sm:-mx-8 sm:px-8 lg:hidden">

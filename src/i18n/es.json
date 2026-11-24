@@ -152,7 +152,7 @@
     },
     "growth": {
       "title": "De una semilla a una nueva vida",
-      "text": "Sigue a un plantón de maíz por las cinco etapas de nuestro proceso. Elige una etapa para verla.",
+      "text": "Sigue a un plantón de maíz por las cinco etapas de nuestro proceso y hasta tu huerto. Elige una etapa para verla.",
       "stageLabel": "Etapa",
       "loading": "Cargando la escena 3D",
       "canvasLabel": "Modelo 3D de un plantón de maíz en su celda, en la etapa seleccionada",
@@ -181,6 +181,11 @@
           "name": "Listo para tu huerto",
           "time": "Maíz: 10 a 14 días",
           "text": "Con dos o tres hojas verdaderas y doce a dieciocho centímetros, se etiqueta con su lote y se despacha."
+        },
+        {
+          "name": "En tu huerto",
+          "time": "Tras el trasplante",
+          "text": "Trasplantado con su celda, el maíz sigue creciendo en tu huerto hasta formar su tallo, sus hojas y sus mazorcas."
         }
       ]
     },
