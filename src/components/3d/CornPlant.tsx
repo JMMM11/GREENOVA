@@ -3,6 +3,7 @@ import { useFrame, useThree } from "@react-three/fiber";
 import { CanvasTexture, DoubleSide, type Group, type Mesh } from "three";
 import { grow, makeLeaf, makeSoil, makeStalk } from "./geometry";
 import { Ear } from "./Ear";
+import { PITCH, SOIL_TOP, Tray } from "./Tray";
 
 /** Hojas (repartidas con el ángulo áureo): longitud y altura como plantón (sL, sY) y como planta adulta (fL, fY), y forma. */
 const LEAVES = [
@@ -19,17 +20,17 @@ const EARS = [
   { t: 0.55, az: -Math.PI / 2 + 0.2, seed: 7 },
 ];
 const NODES = [0.07, 0.19, 0.32, 0.46, 0.61, 0.75, 0.9];
-const CELL_TOP = 2.55; // sustrato de la celda
 const GROUND = 0.62; // cima del montículo
 const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
 
 type Props = { stage: number; reduced: boolean; tilt: { current: { x: number; y: number } }; labelText: string[] };
 
-/** Maíz en 6 etapas (0..5): siembra, germinación, crecimiento, aclimatación, plantón listo y planta adulta en el huerto. */
+/** Maíz en 6 etapas (0..5), en su celda de la bandeja hasta el trasplante: siembra, germinación, crecimiento, aclimatación, plantón listo y planta adulta en el huerto. */
 export function CornPlant({ stage, reduced, tilt, labelText }: Props) {
   const root = useRef<Group>(null);
   const spin = useRef<Group>(null);
   const cell = useRef<Group>(null);
+  const mound = useRef<Group>(null);
   const base = useRef<Group>(null);
   const stalk = useRef<Mesh>(null);
   const sprout = useRef<Mesh>(null);
@@ -40,7 +41,13 @@ export function CornPlant({ stage, reduced, tilt, labelText }: Props) {
   const g = useRef(reduced ? stage : 0); // al entrar, la planta crece desde la semilla
   const { camera, invalidate } = useThree();
 
-  useEffect(() => invalidate(), [stage, invalidate]); // con frameloop "demand" (movimiento reducido)
+  // Al volver atrás más de una etapa (p. ej. el bucle automático de la planta adulta a la siembra), se reinicia sin "decrecer".
+  const prevStage = useRef(stage);
+  useEffect(() => {
+    if (stage < prevStage.current - 1) g.current = stage;
+    prevStage.current = stage;
+    invalidate(); // con frameloop "demand" (movimiento reducido)
+  }, [stage, invalidate]);
 
   const soil = useMemo(() => makeSoil(), []);
   const stalkGeo = useMemo(() => makeStalk(NODES), []);
@@ -68,8 +75,8 @@ export function CornPlant({ stage, reduced, tilt, labelText }: Props) {
     const kF = grow(v, 4.15, 0.85); // de plantón a planta adulta
 
     // Cámara: se aleja para encuadrar la planta adulta completa
-    camera.position.set(0, lerp(5, 9, kF), lerp(13.5, 30, kF));
-    camera.lookAt(0, lerp(2.5, 5.6, kF), 0);
+    camera.position.set(0, lerp(5.5, 9, kF), lerp(14, 30, kF));
+    camera.lookAt(0, lerp(1.9, 5.6, kF), 0);
 
     if (spin.current && !reduced) spin.current.rotation.y += d * ((Math.PI * 2) / 45); // una vuelta cada 45 s
     if (root.current) {
@@ -77,12 +84,13 @@ export function CornPlant({ stage, reduced, tilt, labelText }: Props) {
       root.current.rotation.z += (-tilt.current.x * 0.08 - root.current.rotation.z) * 0.06;
     }
 
-    // La celda se entierra en el montículo al trasplantar
+    // Trasplante: la bandeja se retira y aparece el montículo del huerto
     if (cell.current) {
-      cell.current.position.y = -kF * (CELL_TOP + 0.3);
+      cell.current.scale.setScalar(Math.max(0.001, 1 - kF));
       cell.current.visible = kF < 0.98;
     }
-    if (base.current) base.current.position.y = lerp(CELL_TOP, GROUND, kF);
+    if (mound.current) mound.current.scale.setScalar(Math.max(0.001, kF));
+    if (base.current) base.current.position.y = lerp(SOIL_TOP, GROUND, kF);
     if (seed.current) seed.current.visible = v < 1.2;
     if (sprout.current) sprout.current.scale.set(1, Math.max(0.001, grow(v, 0.5, 0.8) * (1 - grow(v, 1.6, 0.8))), 1);
 
@@ -113,25 +121,20 @@ export function CornPlant({ stage, reduced, tilt, labelText }: Props) {
   return (
     <group ref={root}>
       <group ref={spin}>
-        <mesh geometry={soil} receiveShadow castShadow>
-          <meshStandardMaterial vertexColors roughness={1} />
-        </mesh>
+        <group ref={mound}>
+          <mesh geometry={soil} receiveShadow castShadow>
+            <meshStandardMaterial vertexColors roughness={1} />
+          </mesh>
+        </group>
 
-        {/* Celda biodegradable con sustrato, semilla y etiqueta de trazabilidad */}
+        {/* Bandeja de celdas biodegradable con la semilla y la etiqueta de trazabilidad */}
         <group ref={cell}>
-          <mesh rotation-y={Math.PI / 4} position-y={1.45} castShadow receiveShadow>
-            <cylinderGeometry args={[1.5, 1.1, 2.2, 4, 1, true]} />
-            <meshStandardMaterial color="#9c7d55" roughness={1} side={DoubleSide} />
-          </mesh>
-          <mesh rotation-y={Math.PI / 4} position-y={CELL_TOP - 0.03} receiveShadow>
-            <cylinderGeometry args={[1.42, 1.42, 0.06, 4]} />
-            <meshStandardMaterial color="#3a2b1c" roughness={1} />
-          </mesh>
-          <mesh ref={seed} position={[0.15, CELL_TOP + 0.05, 0.1]} scale={[0.34, 0.2, 0.42]} rotation-y={0.6} castShadow>
+          <Tray />
+          <mesh ref={seed} position={[0.1, SOIL_TOP + 0.04, 0.05]} scale={[0.2, 0.12, 0.25]} rotation-y={0.6} castShadow>
             <sphereGeometry args={[1, 20, 14]} />
             <meshStandardMaterial color="#d9b44a" roughness={0.55} />
           </mesh>
-          <group ref={label} position={[1.0, CELL_TOP - 0.1, 0.5]} rotation-y={-0.5}>
+          <group ref={label} position={[PITCH, SOIL_TOP - 0.1, 0]} rotation-y={-0.5}>
             <mesh position={[0, 0.55, -0.04]}>
               <cylinderGeometry args={[0.03, 0.03, 1.1, 6]} />
               <meshStandardMaterial color="#b89466" roughness={1} />

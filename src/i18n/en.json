@@ -187,7 +187,9 @@
           "time": "After transplanting",
           "text": "Planted with its cell, the corn keeps growing in your garden until it forms its stalk, leaves and ears."
         }
-      ]
+      ],
+      "pause": "Pause the growth",
+      "play": "Play the growth"
     },
     "cta": {
       "title": "A school, community or home garden?",

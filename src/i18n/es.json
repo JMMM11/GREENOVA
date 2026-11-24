@@ -187,7 +187,9 @@
           "time": "Tras el trasplante",
           "text": "Trasplantado con su celda, el maíz sigue creciendo en tu huerto hasta formar su tallo, sus hojas y sus mazorcas."
         }
-      ]
+      ],
+      "pause": "Pausar el crecimiento",
+      "play": "Reproducir el crecimiento"
     },
     "cta": {
       "title": "¿Huerto escolar, comunitario o de casa?",
