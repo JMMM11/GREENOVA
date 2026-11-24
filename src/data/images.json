@@ -1,0 +1,201 @@
+{
+ "camara-laboratorio": {
+  "w": 1600,
+  "h": 900,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "camara-doble": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "camara-bandejas": {
+  "w": 4032,
+  "h": 3024,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "camara-prototipo": {
+  "w": 380,
+  "h": 285,
+  "widths": [
+   380
+  ]
+ },
+ "camara-v2": {
+  "w": 1832,
+  "h": 1073,
+  "widths": [
+   480,
+   960,
+   1600
+  ]
+ },
+ "led-maiz-1": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "led-maiz-2": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "led-maiz-3": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "led-maiz-4": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "led-detalle": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "brotes-celda-1": {
+  "w": 380,
+  "h": 285,
+  "widths": [
+   380
+  ]
+ },
+ "brotes-celda-2": {
+  "w": 380,
+  "h": 285,
+  "widths": [
+   380
+  ]
+ },
+ "plantones-camara": {
+  "w": 904,
+  "h": 576,
+  "widths": [
+   480
+  ]
+ },
+ "plantones-led": {
+  "w": 893,
+  "h": 576,
+  "widths": [
+   480
+  ]
+ },
+ "aclimatacion-1": {
+  "w": 895,
+  "h": 708,
+  "widths": [
+   480
+  ]
+ },
+ "aclimatacion-2": {
+  "w": 864,
+  "h": 734,
+  "widths": [
+   480
+  ]
+ },
+ "construccion-1": {
+  "w": 885,
+  "h": 611,
+  "widths": [
+   480
+  ]
+ },
+ "construccion-2": {
+  "w": 792,
+  "h": 611,
+  "widths": [
+   480
+  ]
+ },
+ "construccion-3": {
+  "w": 849,
+  "h": 703,
+  "widths": [
+   480
+  ]
+ },
+ "construccion-4": {
+  "w": 884,
+  "h": 673,
+  "widths": [
+   480
+  ]
+ },
+ "huerto-1": {
+  "w": 966,
+  "h": 761,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "huerto-2": {
+  "w": 352,
+  "h": 701,
+  "widths": [
+   352
+  ]
+ },
+ "equipo-1": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "equipo-2": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "equipo-huerto": {
+  "w": 1280,
+  "h": 960,
+  "widths": [
+   480,
+   960
+  ]
+ },
+ "equipo-siembra": {
+  "w": 1280,
+  "h": 652,
+  "widths": [
+   480,
+   960
+  ]
+ }
+}

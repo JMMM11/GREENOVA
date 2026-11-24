@@ -1,0 +1,975 @@
+{
+  "meta": {
+    "siteName": "GREENOVA",
+    "locale": "es_PA",
+    "home": {
+      "title": "GREENOVA | Plantones listos para trasplante en Panamá",
+      "description": "Plantones de maíz, pepino y tomate germinados en una cámara automatizada en La Chorrera, Panamá Oeste. Con etiqueta de trazabilidad y guía de manejo."
+    },
+    "about": {
+      "title": "Nosotros | GREENOVA, empresa estudiantil de La Chorrera",
+      "description": "Conoce a GREENOVA: misión, visión, valores y el equipo de la Escuela Secundaria Pedro Pablo Sánchez que convirtió un proyecto científico en empresa."
+    },
+    "products": {
+      "title": "Plantones de maíz, pepino y tomate | GREENOVA Panamá",
+      "description": "Fichas de los plantones GREENOVA: días a la entrega, profundidad de siembra, temperatura, riego y formatos por unidad, bandeja o encargo programado."
+    },
+    "solutions": {
+      "title": "Soluciones para huertos, escuelas y productores | GREENOVA",
+      "description": "Plantones para hogares, huertos escolares y comunitarios, pequeños productores y restaurantes de Panamá Oeste, con garantía de reposición y entrega."
+    },
+    "innovation": {
+      "title": "Cámara de germinación con Arduino y sensores | GREENOVA",
+      "description": "Cómo funciona la cámara de GREENOVA: Arduino UNO, luz LED de cultivo, ventilación automática, cinco sensores y registro de cada lote en tarjeta microSD."
+    },
+    "process": {
+      "title": "Proceso de producción en cinco etapas | GREENOVA Panamá",
+      "description": "De la siembra al despacho: las cinco etapas con protocolo por especie que sigue cada plantón GREENOVA, con tiempos, temperaturas y riego documentados."
+    },
+    "projects": {
+      "title": "Proyectos: cámara, ensayos y huerto escolar | GREENOVA",
+      "description": "La construcción de la cámara de germinación, el ensayo inicial con maíz, pepino y tomate y el uso de los plantones en el huerto escolar del colegio."
+    },
+    "contact": {
+      "title": "Contacto y pedidos de plantones | GREENOVA La Chorrera",
+      "description": "Escribe a GREENOVA para pedidos, encargos programados de huertos escolares o consultas. Punto de venta en la Escuela Secundaria Pedro Pablo Sánchez."
+    },
+    "privacy": {
+      "title": "Aviso de privacidad | GREENOVA, plantones en Panamá Oeste",
+      "description": "Qué datos recoge el formulario de contacto de GREENOVA, para qué se usan, cuánto tiempo se guardan y cómo ejercer tus derechos de acceso y borrado."
+    },
+    "terms": {
+      "title": "Términos y condiciones de uso del sitio | GREENOVA Panamá",
+      "description": "Condiciones de uso del sitio web de GREENOVA: propiedad intelectual de textos e imágenes, alcance de la información publicada y responsabilidad."
+    },
+    "cookies": {
+      "title": "Aviso de cookies del sitio web | GREENOVA Panamá Oeste",
+      "description": "El sitio de GREENOVA no usa cookies de rastreo ni de publicidad. Aquí explicamos qué almacenamiento técnico existe y cómo puedes gestionarlo."
+    },
+    "notFound": {
+      "title": "Página no encontrada | GREENOVA",
+      "description": "La página que buscas no existe o cambió de dirección. Vuelve al inicio de GREENOVA para ver nuestros plantones."
+    },
+    "shop": {
+      "title": "Tienda de plantones: pide en línea sin cuenta | GREENOVA",
+      "description": "Pide plantones de maíz, pepino y tomate por unidad o bandeja, con 10 % de descuento desde 24 plantones. Retiro en el colegio o entrega en La Chorrera."
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "solutions": "Soluciones",
+    "products": "Productos",
+    "innovation": "Innovación",
+    "process": "Proceso",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "privacy": "Aviso de privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "skip": "Saltar al contenido",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "mainNav": "Navegación principal",
+    "langLabel": "Idioma",
+    "langSwitch": "Ver esta página en inglés",
+    "homeLink": "GREENOVA, ir al inicio",
+    "shop": "Tienda",
+    "cart": "Ver pedido"
+  },
+  "common": {
+    "lema": "Donde crece el futuro",
+    "learnMore": "Conocer más",
+    "pending": "Pendiente de confirmar",
+    "photoCredit": "Fotografías: equipo GREENOVA"
+  },
+  "hero": {
+    "title": "Donde crece el futuro",
+    "subtitle": "Plantones de maíz, pepino y tomate germinados en una cámara automatizada, listos para trasplantar en tu huerto.",
+    "cta": "Haz tu pedido",
+    "secondary": "Cómo los producimos",
+    "posterAlt": "Plántulas de maíz bajo la luz LED de la cámara de germinación de GREENOVA"
+  },
+  "home": {
+    "intro": {
+      "title": "Una planta que ya nació",
+      "text": "Casi todos los huertos caseros fracasan al germinar. Nosotros germinamos en una cámara con sensores y te entregamos una planta que ya nació.",
+      "img1": "Cámara de germinación con bandejas"
+    },
+    "value": {
+      "title": "Lo que una semilla no te da",
+      "items": [
+        {
+          "name": "Nace en ambiente controlado",
+          "text": "Temperatura, humedad ambiental, humedad de suelo, luz y calidad del aire medidas por sensores, con registro de cada lote en tarjeta microSD."
+        },
+        {
+          "name": "Trazable del lote a tu huerto",
+          "text": "Cada plantón lleva etiqueta con especie, código de lote, fecha de siembra, días de vida y recomendaciones de manejo."
+        },
+        {
+          "name": "Se trasplanta sin tocar la raíz",
+          "text": "La celda de fibra biodegradable se planta completa. Así se evita el daño radicular, la causa principal de fracaso en el trasplante doméstico."
+        }
+      ]
+    },
+    "catalogue": {
+      "title": "El catálogo",
+      "text": "Tres especies elegidas por su valor en el huerto y por los resultados de nuestros propios ensayos.",
+      "link": "Ver fichas completas"
+    },
+    "solutions": {
+      "title": "Para quién cultivamos",
+      "text": "Hogares, aulas, huertos comunitarios, pequeños productores y cocinas de Panamá Oeste."
+    },
+    "innovation": {
+      "title": "La cámara por dentro",
+      "text": "Una placa Arduino UNO gobierna la luz LED de cultivo y la ventilación, y cinco sensores registran las condiciones de cada tanda.",
+      "link": "Ver cómo funciona",
+      "caption": "Dos cámaras en el laboratorio del colegio, con bandejas de doce celdas."
+    },
+    "diff": {
+      "title": "Lo que nadie más ofrece aquí",
+      "text": "Ningún vivero, tienda agropecuaria ni vendedor informal del área ofrece a la vez plantón hortícola germinado, trazabilidad documentada y pedidos en línea.",
+      "items": [
+        {
+          "name": "Garantía de reposición",
+          "text": "Si un plantón no prende en los tres días siguientes al trasplante, lo reponemos sin costo presentando su etiqueta."
+        },
+        {
+          "name": "Plantones uniformes",
+          "text": "Los plantones de una misma tanda crecen parejos, lo que facilita planificar el huerto."
+        },
+        {
+          "name": "Producción local",
+          "text": "Germinados en La Chorrera, sin intermediarios, dentro de un radio de diez kilómetros."
+        },
+        {
+          "name": "Guía incluida",
+          "text": "Contenido breve sobre los pasos del trasplante, errores comunes de riego y calendario de siembra."
+        }
+      ]
+    },
+    "growth": {
+      "title": "De una semilla a una nueva vida",
+      "text": "Sigue a un plantón de maíz por las cinco etapas de nuestro proceso. Elige una etapa para verla.",
+      "stageLabel": "Etapa",
+      "loading": "Cargando la escena 3D",
+      "canvasLabel": "Modelo 3D de un plantón de maíz en su celda, en la etapa seleccionada",
+      "stages": [
+        {
+          "name": "Siembra",
+          "time": "1 día",
+          "text": "La semilla de maíz entra a dos o tres centímetros en sustrato húmedo, dentro de su celda, y el lote queda registrado."
+        },
+        {
+          "name": "Germinación",
+          "time": "48 horas",
+          "text": "En la cámara, entre 20 y 30 °C y con 12 a 14 horas de luz, el maíz germinó al cien por ciento en nuestro ensayo."
+        },
+        {
+          "name": "Crecimiento inicial",
+          "time": "5 a 20 días",
+          "text": "En el estante de crecimiento, bajo luz complementaria y con humedad constante sin encharcar, salen las primeras hojas."
+        },
+        {
+          "name": "Aclimatación",
+          "time": "3 a 7 días",
+          "text": "El plantón sale poco a poco al exterior para endurecer el tejido y llegar sin estrés al trasplante."
+        },
+        {
+          "name": "Listo para tu huerto",
+          "time": "Maíz: 10 a 14 días",
+          "text": "Con dos o tres hojas verdaderas y doce a dieciocho centímetros, se etiqueta con su lote y se despacha."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Huerto escolar, comunitario o de casa?",
+      "text": "Cuéntanos qué quieres sembrar y cuándo. Para encargos de instituciones reservamos la producción con dos semanas de anticipación.",
+      "link": "Escríbenos tu pedido",
+      "photoAlt": "Integrante del equipo GREENOVA"
+    }
+  },
+  "planner": {
+    "title": "¿Cuándo estará listo tu plantón?",
+    "text": "Elige especie y la fecha en que quieres trasplantar. Te mostramos la etiqueta que llevaría tu plantón y hasta cuándo pedirlo.",
+    "species": "Especie",
+    "date": "Quiero trasplantar el",
+    "label": "Etiqueta de trazabilidad",
+    "lot": "Código de lote",
+    "sown": "Fecha de siembra",
+    "age": "Días de vida al trasplante",
+    "care": "Manejo",
+    "orderBy": "Pide antes del",
+    "orderNote": "Encargos de instituciones: dos semanas antes de la siembra.",
+    "tooSoon": "No llegamos a esa fecha: este plantón necesita al menos {min} días. La fecha más próxima posible es el {date}.",
+    "example": "Ejemplo ilustrativo. El código real se asigna al sembrar el lote.",
+    "pick": "Elige una fecha para ver la etiqueta.",
+    "cta": "Pedir este plantón",
+    "days": "días"
+  },
+  "species": {
+    "maiz": {
+      "name": "Maíz",
+      "code": "MZ",
+      "fact": "100 % de germinación a las 48 horas en nuestro ensayo",
+      "delivery": "10 a 14 días",
+      "readyMin": 10,
+      "readyMax": 14,
+      "depth": "2 a 3 cm",
+      "temp": "20 a 30 °C",
+      "light": "12 a 14 horas",
+      "water": "Humedad constante, sin encharcar",
+      "ready": "2 a 3 hojas verdaderas, 12 a 18 cm de altura",
+      "use": "La especie preferida por los huertos escolares: su crecimiento se ve en pocos días, ideal para enseñar.",
+      "alt": "Plántulas de maíz bajo la luz LED, con su etiqueta de lote"
+    },
+    "pepino": {
+      "name": "Pepino",
+      "code": "PP",
+      "fact": "100 % de germinación a las 48 horas en nuestro ensayo",
+      "delivery": "12 a 18 días",
+      "readyMin": 12,
+      "readyMax": 18,
+      "depth": "1 a 2 cm",
+      "temp": "25 a 30 °C",
+      "light": "12 a 14 horas",
+      "water": "Riego moderado: es sensible al exceso de agua",
+      "ready": "Raíz formada y hojas verdaderas desarrolladas",
+      "use": "La de mayor rotación: ciclo corto hasta la cosecha y demanda constante en la cocina panameña.",
+      "alt": "Brotes en celdas de fibra biodegradable"
+    },
+    "tomate": {
+      "name": "Tomate",
+      "code": "TM",
+      "fact": "Germina en 5 a 8 días; meta de 85 % o más en ocho días",
+      "delivery": "25 a 35 días",
+      "readyMin": 25,
+      "readyMax": 35,
+      "depth": "0,5 cm",
+      "temp": "22 a 28 °C",
+      "light": "14 a 16 horas",
+      "water": "Riego ligero y frecuente por nebulización",
+      "ready": "Raíz formada, hojas verdaderas y tejido aclimatado",
+      "use": "El ciclo más largo del catálogo, con protocolo propio de germinación.",
+      "alt": "Plántulas jóvenes en celdas biodegradables"
+    }
+  },
+  "products": {
+    "title": "Plantones listos para trasplante",
+    "intro": "Un plantón GREENOVA es una plántula germinada en celda biodegradable, con raíz formada, hojas verdaderas desarrolladas y aclimatada a condiciones exteriores.",
+    "specs": {
+      "delivery": "Entrega",
+      "depth": "Profundidad de siembra",
+      "temp": "Temperatura en cámara",
+      "light": "Fotoperiodo",
+      "water": "Riego",
+      "ready": "Al entregarse"
+    },
+    "tomatoNote": {
+      "title": "El protocolo propio del tomate",
+      "text": "En el ensayo inicial el tomate marcó 37,5 % a las 72 horas. No era una falla: la especie germina entre cinco y ocho días y la medición se tomó antes. De ahí salió el plan de mejora.",
+      "items": [
+        "Evaluar cada lote durante ocho días como mínimo antes de descartar semilla.",
+        "Mantener la cámara entre 25 y 28 °C durante la germinación.",
+        "Pregerminar en papel húmedo las 24 horas previas a la siembra.",
+        "Usar semilla certificada con fecha de envasado reciente."
+      ]
+    },
+    "formats": {
+      "title": "Formatos",
+      "text": "Todos se entregan en celda de fibra biodegradable que se trasplanta completa.",
+      "items": [
+        {
+          "name": "Unidad",
+          "text": "Un plantón, para quien empieza o completa su huerto."
+        },
+        {
+          "name": "Bandeja de 12",
+          "text": "Doce celdas de una sola especie."
+        },
+        {
+          "name": "Bandeja mixta",
+          "text": "Las tres especies en una bandeja."
+        },
+        {
+          "name": "Encargo programado",
+          "text": "Para instituciones: reserva la producción con dos semanas de anticipación."
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Del laboratorio al huerto",
+      "items": [
+        {
+          "img": "led-maiz-3",
+          "name": "Maíz bajo luz LED",
+          "fact": "Etiqueta de lote en cada celda"
+        },
+        {
+          "img": "brotes-celda-1",
+          "name": "Primeros brotes",
+          "fact": "Celda de fibra biodegradable"
+        },
+        {
+          "img": "plantones-led",
+          "name": "Hojas verdaderas",
+          "fact": "Estante de crecimiento"
+        },
+        {
+          "img": "aclimatacion-2",
+          "name": "Plantones etiquetados",
+          "fact": "Listos para el despacho"
+        },
+        {
+          "img": "led-detalle",
+          "name": "Detalle de hoja",
+          "fact": "Luz complementaria"
+        },
+        {
+          "img": "aclimatacion-1",
+          "name": "Aclimatación",
+          "fact": "Exposición gradual al exterior"
+        }
+      ]
+    }
+  },
+  "solutions": {
+    "title": "Plantones según cómo cultivas",
+    "intro": "Vendemos el resultado de la tecnología, no la tecnología: plantones sanos, uniformes y listos para trasplante, en el formato que tu huerto necesita.",
+    "indexTitle": "Elige tu caso",
+    "audiences": [
+      {
+        "id": "hogares",
+        "name": "Hogares con huerto",
+        "need": "Patio, terraza o macetas. Entre tres y doce plantones al mes o por temporada.",
+        "offer": "Venta por unidad, para no comprar más de lo que vas a sembrar, con guía breve de trasplante.",
+        "img": "brotes-celda-2"
+      },
+      {
+        "id": "comunidad-educativa",
+        "name": "Comunidad educativa",
+        "need": "Estudiantes, docentes y personal del plantel y de colegios cercanos. De uno a seis plantones por semana.",
+        "offer": "Retiro en la mesa de despacho del colegio durante recesos y salida.",
+        "img": "equipo-1"
+      },
+      {
+        "id": "huertos-escolares",
+        "name": "Huertos escolares y comunitarios",
+        "need": "Proyectos institucionales que necesitan de tres a diez bandejas cada trimestre.",
+        "offer": "Encargo programado con dos semanas de anticipación y entrega directa sin costo desde cinco bandejas.",
+        "img": "huerto-1"
+      },
+      {
+        "id": "productores",
+        "name": "Pequeños productores",
+        "need": "Productores de traspatio que quieren ahorrarse el semillero. De cinco a veinte bandejas por ciclo.",
+        "offer": "Bandejas uniformes por especie, para planificar el trasplante de una sola vez.",
+        "img": "aclimatacion-1"
+      },
+      {
+        "id": "restaurantes",
+        "name": "Restaurantes y fondas",
+        "need": "Cocinas que quieren cultivar sus propios insumos frescos. De una a cinco bandejas cada dos meses.",
+        "offer": "Bandejas mixtas o por especie, con el origen de cada lote documentado.",
+        "img": "led-maiz-4"
+      }
+    ],
+    "services": {
+      "title": "Incluido con cada pedido",
+      "items": [
+        {
+          "id": "garantia",
+          "name": "Garantía de reposición",
+          "text": "Si el plantón no prende en los tres días siguientes al trasplante, lo reemplazamos sin costo presentando la etiqueta de trazabilidad."
+        },
+        {
+          "id": "trazabilidad",
+          "name": "Etiqueta de trazabilidad",
+          "text": "Especie, código de lote, fecha de siembra, días de vida y recomendaciones de manejo en cada plantón."
+        },
+        {
+          "id": "acompanamiento",
+          "name": "Acompañamiento educativo",
+          "text": "Contenido breve sobre los tres pasos del trasplante, errores comunes de riego y el calendario de siembra para Panamá Oeste."
+        },
+        {
+          "id": "entrega",
+          "name": "Entrega y retiro",
+          "text": "Retiro en el colegio, coordinación por mensajería y entrega directa en un radio de diez kilómetros para pedidos de cinco bandejas o más."
+        }
+      ]
+    },
+    "channels": {
+      "title": "Dónde pedir",
+      "items": [
+        {
+          "name": "En el colegio",
+          "text": "Mesa de exhibición y despacho en la Escuela Secundaria Pedro Pablo Sánchez."
+        },
+        {
+          "name": "En línea",
+          "text": "Formulario de pedidos de este sitio, con fecha de retiro según el lote disponible."
+        },
+        {
+          "name": "Redes y mensajería",
+          "text": "Pedidos rápidos, consultas y coordinación de entregas."
+        }
+      ]
+    }
+  },
+  "innovation": {
+    "title": "Tecnología al servicio de la germinación",
+    "intro": "La cámara nació como proyecto científico en el laboratorio del colegio y hoy es el activo productivo de la empresa.",
+    "diagram": {
+      "title": "Cómo trabaja la cámara",
+      "text": "Los sensores miden, la placa decide y los actuadores corrigen. Todo queda registrado por lote.",
+      "sensors": "Sensores",
+      "brain": "Arduino UNO",
+      "actuators": "Actuadores",
+      "log": "Registro",
+      "sensorList": [
+        "Temperatura",
+        "Humedad ambiental",
+        "Humedad de suelo",
+        "Luz",
+        "Calidad del aire"
+      ],
+      "actuatorList": [
+        "Luz LED de cultivo",
+        "Ventilación automática"
+      ],
+      "logList": [
+        "Reloj en tiempo real",
+        "Tarjeta microSD"
+      ],
+      "aria": "Diagrama: cinco sensores envían datos a la placa Arduino UNO, que controla la luz LED y la ventilación y guarda el registro con reloj en tiempo real en una tarjeta microSD."
+    },
+    "results": {
+      "title": "Lo que midió el ensayo",
+      "items": [
+        {
+          "value": "100 %",
+          "name": "Maíz",
+          "text": "germinación a las 48 horas"
+        },
+        {
+          "value": "100 %",
+          "name": "Pepino",
+          "text": "germinación a las 48 horas"
+        },
+        {
+          "value": "37,5 %",
+          "name": "Tomate",
+          "text": "a las 72 horas, antes de completar su ciclo natural de 5 a 8 días"
+        }
+      ]
+    },
+    "capacity": {
+      "title": "Capacidad",
+      "items": [
+        {
+          "value": "96",
+          "text": "celdas por tanda: ocho bandejas de doce"
+        },
+        {
+          "value": "3 a 4",
+          "text": "tandas al mes, porque solo la germinación ocupa la cámara"
+        },
+        {
+          "value": "400 a 500",
+          "text": "plantones al mes de capacidad estimada"
+        }
+      ],
+      "note": "La restricción real está en el estante de crecimiento, no en la cámara: crecer significa sumar un segundo estante."
+    },
+    "protocol": {
+      "title": "Un protocolo por especie",
+      "text": "La lectura del ensayo del tomate cambió el proceso: cada especie tiene su profundidad, su temperatura, su fotoperiodo y su riego.",
+      "link": "Ver las cinco etapas"
+    },
+    "background": {
+      "title": "Sobre hombros de otros",
+      "text": "Trabajos de la Universidad Tecnológica de Panamá ya mostraron que la automatización de bajo costo funciona en semilleros. GREENOVA suma lo que no abordaron: convertir el sistema en una unidad productiva con modelo comercial.",
+      "refs": [
+        "González, Morales, García y Villarreal (2018). Ambiente controlado para semilleros de huertos urbanos con FreeRTOS y Arduino. UTP.",
+        "Sánchez, Ruiloba, Morales y Sánchez (2021). Riego automatizado por Arduino en la germinación de Cucumis sativus. UTP."
+      ]
+    },
+    "photoAlt": "Interior de la cámara: sensores, lámparas LED y plántulas de maíz"
+  },
+  "process": {
+    "title": "Cinco etapas, un protocolo por especie",
+    "intro": "Cada lote sigue la misma secuencia. Lo que cambia entre maíz, pepino y tomate son la profundidad, la temperatura, la luz y el riego.",
+    "stages": [
+      {
+        "name": "Siembra y registro",
+        "time": "1 día",
+        "text": "Selección de semilla, sustrato humedecido, llenado de celdas y siembra a la profundidad de cada especie: maíz a 2 o 3 cm, pepino a 1 o 2 cm, tomate a medio centímetro. El lote queda registrado.",
+        "img": "camara-bandejas",
+        "alt": "Bandejas de celdas con sustrato frente a la cámara"
+      },
+      {
+        "name": "Germinación en cámara",
+        "time": "2 a 8 días",
+        "text": "Temperatura de 20 a 30 °C para maíz, 25 a 30 °C para pepino y 22 a 28 °C para tomate. Los sensores registran las variables de cada lote en la microSD.",
+        "img": "plantones-camara",
+        "alt": "Plántulas germinando dentro de la cámara con sensores"
+      },
+      {
+        "name": "Crecimiento inicial",
+        "time": "5 a 20 días",
+        "text": "Estante de crecimiento con luz complementaria, riego diferenciado por especie y revisión sanitaria diaria.",
+        "img": "led-maiz-1",
+        "alt": "Plántulas de maíz creciendo bajo lámparas LED"
+      },
+      {
+        "name": "Aclimatación",
+        "time": "3 a 7 días",
+        "text": "Exposición gradual a condiciones exteriores para endurecer el tejido y reducir el estrés de trasplante.",
+        "img": "aclimatacion-1",
+        "alt": "Bandejas de plantones al exterior durante la aclimatación"
+      },
+      {
+        "name": "Selección y despacho",
+        "time": "Al completar el ciclo",
+        "text": "Descarte de plantones débiles, etiquetado con trazabilidad, agrupación por formato y despacho.",
+        "img": "aclimatacion-2",
+        "alt": "Plantones etiquetados y agrupados por bandeja"
+      }
+    ],
+    "loss": "Merma esperada del diez por ciento entre descarte por debilidad y pérdidas sanitarias.",
+    "waste": "Los residuos de sustrato y el material descartado se compostan dentro del plantel. No usamos productos fitosanitarios de uso restringido."
+  },
+  "projects": {
+    "title": "Lo que ya hicimos",
+    "intro": "GREENOVA no empezó como plan de negocio. Empezó con una cámara construida a mano y un ensayo que obligó a leer bien los datos.",
+    "items": [
+      {
+        "id": "camara",
+        "name": "Construcción de la cámara",
+        "text": "Sobre un contenedor de vidrio adaptado se montaron la placa Arduino, la iluminación LED de cultivo, la ventilación y los sensores. El equipo soldó, cableó y calibró cada módulo en el laboratorio del colegio.",
+        "imgs": [
+          "construccion-2",
+          "construccion-1",
+          "construccion-4",
+          "camara-prototipo"
+        ]
+      },
+      {
+        "id": "ensayo",
+        "name": "Ensayo inicial de germinación",
+        "text": "Maíz y pepino alcanzaron el cien por ciento a las 48 horas. El tomate marcó 37,5 % a las 72 horas; el análisis mostró que la medición fue anterior a su ciclo natural y dio origen al protocolo por especie.",
+        "imgs": [
+          "brotes-celda-1",
+          "brotes-celda-2"
+        ]
+      },
+      {
+        "id": "huerto",
+        "name": "Huerto escolar Pedro Pablo Sánchez",
+        "text": "Nuestros plantones se trasplantaron en el huerto escolar del colegio, donde el equipo preparó el terreno, sembró y regó.",
+        "imgs": [
+          "huerto-1",
+          "equipo-siembra",
+          "huerto-2"
+        ]
+      },
+      {
+        "id": "actualizacion",
+        "name": "Última actualización de la cámara",
+        "text": "La versión actual suma una segunda cámara y más lámparas, con capacidad para ocho bandejas de doce celdas por tanda.",
+        "imgs": [
+          "camara-v2",
+          "camara-laboratorio"
+        ]
+      }
+    ],
+    "pending": {
+      "title": "Colaboraciones",
+      "text": "Aquí publicaremos los huertos escolares, comunitarios y clientes que trabajen con GREENOVA, siempre con su permiso."
+    }
+  },
+  "about": {
+    "title": "Una empresa que nació en el laboratorio",
+    "intro": "GREENOVA es una empresa estudiantil de la Escuela Secundaria Pedro Pablo Sánchez, en La Chorrera, Panamá Oeste. Producimos y vendemos plantones de maíz, pepino y tomate germinados bajo condiciones controladas.",
+    "story": {
+      "title": "De proyecto científico a empresa",
+      "text": [
+        "La agricultura urbana crece en Panamá porque las hortalizas frescas cuestan cada vez más. Pero la mayoría de quienes quieren sembrar fracasa en el primer paso: germinar la semilla.",
+        "Construimos una cámara automatizada para reducir esa variabilidad. Cuando los datos mostraron que funcionaba, en 2026 escribimos el plan de negocio para convertir el prototipo en una unidad productiva."
+      ]
+    },
+    "mission": {
+      "title": "Misión",
+      "text": "Producir y ofrecer plantones de alta calidad mediante tecnología de automatización que garantice condiciones adecuadas de germinación y crecimiento, promoviendo una agricultura accesible, sostenible e innovadora para hogares, escuelas y pequeños productores de Panamá Oeste."
+    },
+    "vision": {
+      "title": "Visión",
+      "text": "Ser en 2029 una empresa estudiantil de referencia en la provincia, reconocida por la calidad de sus productos, su innovación y su aporte a la educación ambiental y al cultivo urbano."
+    },
+    "values": {
+      "title": "Valores",
+      "items": [
+        {
+          "name": "Sostenibilidad",
+          "text": "en el uso del agua y la energía."
+        },
+        {
+          "name": "Innovación",
+          "text": "aplicada al proceso productivo."
+        },
+        {
+          "name": "Calidad",
+          "text": "en la selección del material vegetal."
+        },
+        {
+          "name": "Responsabilidad",
+          "text": "en el cumplimiento de los pedidos."
+        },
+        {
+          "name": "Educación",
+          "text": "como aporte a la comunidad."
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "Nuestra filosofía",
+      "quote": "«El cliente no compra una semilla con una promesa, compra una planta que ya nació.»"
+    },
+    "goals": {
+      "title": "Objetivos del primer año",
+      "items": [
+        "Producir 450 plantones al mes al sexto mes de operación.",
+        "Mantener una germinación igual o superior al 85 % en las tres especies.",
+        "Recuperar la inversión inicial en seis meses como máximo.",
+        "Poner en marcha la web de catálogo y pedidos en el primer trimestre.",
+        "Sumar al menos tres huertos escolares o comunitarios como clientes recurrentes."
+      ]
+    },
+    "team": {
+      "title": "Quiénes lo hacen posible",
+      "members": [
+        "Jahir Magallón",
+        "Lionel Prudencio",
+        "Francisco Atencio",
+        "Daryelis Morales"
+      ],
+      "advisorLabel": "Docente asesor",
+      "advisor": "Ariel Castroverde",
+      "school": "Escuela Secundaria Pedro Pablo Sánchez · Duodécimo, Bachiller en Ciencias",
+      "photoAlt": "El equipo de GREENOVA y su docente asesor junto a la cámara de germinación",
+      "areasTitle": "Cuatro áreas de trabajo",
+      "areas": [
+        {
+          "name": "Producción",
+          "text": "Siembra, manejo de lotes, control sanitario y selección del material."
+        },
+        {
+          "name": "Control tecnológico",
+          "text": "Operación de la cámara, calibración de sensores, análisis de datos y mantenimiento."
+        },
+        {
+          "name": "Ventas y mercadeo",
+          "text": "Atención al cliente, web, redes sociales, pedidos y entregas."
+        },
+        {
+          "name": "Administración financiera",
+          "text": "Costos, ingresos, inventario, caja y reportes mensuales."
+        }
+      ]
+    },
+    "heroAlt": "Integrantes de GREENOVA con plantones en el huerto del colegio"
+  },
+  "contact": {
+    "title": "Hablemos de tu huerto",
+    "intro": "Pedidos, encargos programados para instituciones o dudas de trasplante. Respondemos en horario escolar.",
+    "where": {
+      "title": "Punto de venta",
+      "school": "Escuela Secundaria Pedro Pablo Sánchez",
+      "city": "La Chorrera, Panamá Oeste",
+      "hours": "Atención en recesos y a la salida, en horario escolar.",
+      "map": "Ver ubicación en OpenStreetMap"
+    },
+    "direct": {
+      "title": "Contacto directo",
+      "email": "Correo",
+      "phone": "Teléfono",
+      "whatsapp": "WhatsApp",
+      "instagram": "Instagram"
+    }
+  },
+  "form": {
+    "title": "Formulario de pedido o consulta",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono (opcional)",
+    "company": "Escuela, huerto o empresa (opcional)",
+    "type": "Tipo de consulta",
+    "types": {
+      "pedido": "Pedido de plantones",
+      "encargo": "Encargo programado para institución",
+      "consulta": "Consulta sobre cultivo o trasplante",
+      "otro": "Otro tema"
+    },
+    "typePlaceholder": "Elige una opción",
+    "message": "Mensaje",
+    "messageHint": "Especie, cantidad y fecha en que quieres trasplantar.",
+    "privacy": "He leído y acepto el",
+    "privacyLink": "aviso de privacidad",
+    "submit": "Enviar mensaje",
+    "sending": "Enviando…",
+    "success": "Mensaje enviado. Te responderemos en horario escolar.",
+    "networkError": "No pudimos enviar el mensaje. Revisa tu conexión e inténtalo de nuevo.",
+    "notConfigured": "El envío en línea está pendiente de configuración. Mientras tanto, escríbenos por Instagram a @greenova.4; tu mensaje no se ha enviado.",
+    "prefill": "Quiero {species} para trasplantar el {date}.",
+    "errors": {
+      "name": "Escribe tu nombre.",
+      "email": "Escribe un correo válido, por ejemplo nombre@correo.com.",
+      "type": "Elige el tipo de consulta.",
+      "message": "Cuéntanos un poco más: al menos 20 caracteres.",
+      "privacy": "Debes aceptar el aviso de privacidad para enviar.",
+      "summary": "Revisa los campos marcados."
+    }
+  },
+  "footer": {
+    "signoff": "Nos vemos en el huerto",
+    "message": "GREENOVA es una empresa estudiantil de La Chorrera que germina plantones de maíz, pepino y tomate en una cámara automatizada y los entrega listos para trasplante.",
+    "navTitle": "Sitio",
+    "servicesTitle": "Incluido",
+    "legalTitle": "Legal",
+    "stampAlt": "Plántulas de maíz bajo luz LED",
+    "rights": "Todos los derechos reservados."
+  },
+  "legal": {
+    "updated": "Última actualización",
+    "pendingNote": "Los campos entre corchetes están pendientes de completar por GREENOVA antes de publicar el sitio.",
+    "privacy": {
+      "title": "Aviso de privacidad",
+      "sections": [
+        {
+          "h": "Responsable",
+          "p": [
+            "[RAZÓN SOCIAL], con domicilio en [DOMICILIO FISCAL] y RUC [RUC], es responsable de los datos que envías desde este sitio. Contacto: [CORREO DE CONTACTO]."
+          ]
+        },
+        {
+          "h": "Qué datos recogemos",
+          "p": [
+            "Solo los que escribes en el formulario de contacto: nombre, correo electrónico, teléfono y empresa o institución si decides darlos, tipo de consulta y mensaje.",
+            "El sitio no usa cookies de rastreo, analítica ni publicidad."
+          ]
+        },
+        {
+          "h": "Para qué los usamos",
+          "p": [
+            "Para responder tu consulta, preparar tu pedido y coordinar la entrega. No los usamos para publicidad ni los vendemos."
+          ]
+        },
+        {
+          "h": "Cuánto tiempo los guardamos",
+          "p": [
+            "Mientras atendemos tu solicitud y hasta [PLAZO DE CONSERVACIÓN] después, salvo que la ley exija conservarlos más tiempo."
+          ]
+        },
+        {
+          "h": "Quién más los recibe",
+          "p": [
+            "El servicio que entrega los mensajes del formulario: [PROVEEDOR DEL FORMULARIO]. No compartimos tus datos con nadie más salvo obligación legal."
+          ]
+        },
+        {
+          "h": "Tus derechos",
+          "p": [
+            "Puedes pedir acceso, corrección, cancelación u oposición al uso de tus datos escribiendo a [CORREO DE CONTACTO], conforme a la Ley 81 de 2019 sobre Protección de Datos Personales de la República de Panamá."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Términos y condiciones",
+      "sections": [
+        {
+          "h": "Uso del sitio",
+          "p": [
+            "Este sitio informa sobre los plantones y servicios de GREENOVA y permite enviar consultas. Al usarlo aceptas estas condiciones."
+          ]
+        },
+        {
+          "h": "Propiedad intelectual",
+          "p": [
+            "Los textos, fotografías, el logotipo y el lema «Donde crece el futuro» pertenecen a GREENOVA o a sus autores. No pueden reproducirse sin autorización escrita."
+          ]
+        },
+        {
+          "h": "Información publicada",
+          "p": [
+            "Los tiempos de germinación y entrega se basan en nuestros ensayos y en el protocolo de cada especie. Pueden variar según la semilla, el clima y la estación."
+          ]
+        },
+        {
+          "h": "Pedidos y garantía",
+          "p": [
+            "Los pedidos se confirman por escrito. La garantía de reposición aplica a plantones que no prendan en los tres días siguientes al trasplante, presentando la etiqueta de trazabilidad."
+          ]
+        },
+        {
+          "h": "Responsabilidad",
+          "p": [
+            "GREENOVA no responde por el resultado del cultivo una vez trasplantado, que depende de las condiciones y el manejo del huerto."
+          ]
+        },
+        {
+          "h": "Datos de la empresa",
+          "p": [
+            "[RAZÓN SOCIAL] · RUC [RUC] · [DOMICILIO FISCAL] · Aviso de Operación [NÚMERO]."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Aviso de cookies",
+      "sections": [
+        {
+          "h": "Qué usamos",
+          "p": [
+            "Este sitio no instala cookies de rastreo, analítica, publicidad ni redes sociales. Las fuentes, imágenes y el video se sirven desde nuestro propio dominio.",
+            "La tienda guarda tu carrito en el almacenamiento local del navegador (localStorage) para que no se pierda al cambiar de página. Es técnico, no sirve para rastrearte y puedes borrarlo vaciando el carrito o los datos del sitio."
+          ]
+        },
+        {
+          "h": "Por qué no hay banner",
+          "p": [
+            "Como no hay rastreo, no necesitamos pedirte permiso. Si en el futuro añadimos analítica, no se activará hasta que la aceptes desde un aviso con opciones para aceptar o rechazar."
+          ]
+        },
+        {
+          "h": "Cómo gestionarlas",
+          "p": [
+            "Puedes borrar o bloquear cookies en la configuración de tu navegador en cualquier momento."
+          ]
+        }
+      ]
+    }
+  },
+  "notFound": {
+    "title": "Esta página no germinó",
+    "text": "La dirección no existe o cambió. Vuelve al inicio para ver nuestros plantones.",
+    "link": "Volver al inicio"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Qué es exactamente un plantón GREENOVA?",
+        "a": "Una plántula germinada en celda de fibra biodegradable, con raíz formada, hojas verdaderas desarrolladas y aclimatada a condiciones exteriores. Llega lista para trasplantar."
+      },
+      {
+        "q": "¿Qué especies venden y cuándo están listas?",
+        "a": "Maíz, pepino y tomate. El maíz se entrega entre los 10 y 14 días de sembrado, el pepino entre los 12 y 18, y el tomate entre los 25 y 35."
+      },
+      {
+        "q": "¿Cómo se trasplanta?",
+        "a": "La celda biodegradable se planta completa, sin sacar la plántula. Así se evita el daño en la raíz, que es la causa principal de fracaso en el trasplante doméstico. Cada compra incluye una guía breve."
+      },
+      {
+        "q": "¿Qué pasa si el plantón no prende?",
+        "a": "Si no prende en los tres días siguientes al trasplante, lo reponemos sin costo presentando su etiqueta de trazabilidad."
+      },
+      {
+        "q": "¿Qué información trae la etiqueta?",
+        "a": "Especie, código de lote, fecha de siembra, días de vida y recomendaciones de manejo."
+      },
+      {
+        "q": "¿Dónde puedo comprar?",
+        "a": "En la mesa de despacho de la Escuela Secundaria Pedro Pablo Sánchez, en recesos y a la salida; con el formulario de este sitio; o por redes sociales y mensajería."
+      },
+      {
+        "q": "¿Hacen entregas?",
+        "a": "Coordinamos entregas dentro de un radio de diez kilómetros. Los pedidos institucionales de cinco bandejas o más se entregan directamente sin costo adicional."
+      },
+      {
+        "q": "¿Con cuánta anticipación pido para un huerto escolar?",
+        "a": "Los encargos programados para instituciones reservan la producción con dos semanas de anticipación."
+      }
+    ]
+  },
+  "shop": {
+    "title": "Pide tus plantones",
+    "intro": "Elige especie y formato, revisa el total y envíanos el pedido. Sin cuentas ni registro: el carrito se guarda en tu navegador.",
+    "kinds": {
+      "unit": "Unidad",
+      "tray": "Bandeja de 12",
+      "mixed": "Bandeja mixta"
+    },
+    "mixedName": "Maíz, pepino y tomate",
+    "mixedNote": "Cuatro celdas de cada especie.",
+    "perSeedling": "por plantón",
+    "cells": "{n} plantones",
+    "ready": "Listo en {n} días o más",
+    "add": "Añadir",
+    "addTo": "Añadir {name} al pedido",
+    "added": "Añadido",
+    "decrease": "Quitar uno",
+    "increase": "Añadir uno",
+    "qty": "Cantidad",
+    "filterAll": "Todo",
+    "filterLabel": "Filtrar por formato",
+    "perks": [
+      {
+        "name": "10 % desde 24 plantones",
+        "text": "El descuento se aplica solo en el total del pedido."
+      },
+      {
+        "name": "Garantía de reposición",
+        "text": "Si no prende en tres días tras el trasplante, lo reponemos con su etiqueta."
+      },
+      {
+        "name": "Sin cobro en línea",
+        "text": "Te escribimos para confirmar disponibilidad, fecha y forma de pago."
+      }
+    ],
+    "cellOne": "1 plantón"
+  },
+  "cart": {
+    "title": "Tu pedido",
+    "empty": "Todavía no has añadido plantones.",
+    "browse": "Ir a la tienda",
+    "close": "Cerrar pedido",
+    "remove": "Quitar {name}",
+    "subtotal": "Subtotal",
+    "discount": "Descuento por volumen (10 %)",
+    "discountHint": "Añade {n} plantones más para el 10 % de descuento.",
+    "total": "Total",
+    "seedlings": "{n} plantones",
+    "checkout": "Continuar con el pedido",
+    "back": "Volver al carrito",
+    "date": "Fecha de retiro o entrega",
+    "dateHint": "La más próxima posible es el {date}, según el tiempo de germinación.",
+    "method": "Cómo lo recibes",
+    "methods": {
+      "retiro": "Retiro en la Escuela Secundaria Pedro Pablo Sánchez",
+      "entrega": "Entrega dentro de 10 km de La Chorrera"
+    },
+    "deliveryNote": "Sin costo para pedidos institucionales de cinco bandejas o más. En otros casos, el costo se coordina contigo.",
+    "contactHint": "Déjanos un correo o un teléfono, al menos uno.",
+    "notes": "Notas (opcional)",
+    "submit": "Enviar pedido",
+    "sending": "Enviando…",
+    "success": "Pedido enviado. Te escribiremos para confirmar disponibilidad y fecha.",
+    "notConfigured": "El envío en línea de pedidos está pendiente de configuración, así que tu pedido no se ha enviado. Cópialo y mándalo por Instagram a @greenova.4.",
+    "copy": "Copiar pedido",
+    "copied": "Pedido copiado",
+    "noCharge": "Este formulario no cobra nada: GREENOVA confirma cada pedido por escrito.",
+    "summary": "Pedido GREENOVA",
+    "errors": {
+      "contact": "Escribe un correo válido o un teléfono.",
+      "date": "Elige una fecha a partir del {date}."
+    }
+  },
+  "parallax": {
+    "title": "Donde crece el futuro",
+    "text": "Cada plantón sale de la cámara con su lote, su fecha y su historia."
+  }
+}
