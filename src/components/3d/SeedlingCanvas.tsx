@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { PCFShadowMap } from "three";
-import { Seedling } from "./Seedling";
+import { CornPlant } from "./CornPlant";
 
 type Props = { stage: number; label: string; labelText: string[] };
 
@@ -38,8 +38,7 @@ export default function SeedlingCanvas({ stage, label, labelText }: Props) {
         frameloop={!visible ? "never" : reduced ? "demand" : "always"}
         dpr={[1, 1.5]}
         shadows={{ type: PCFShadowMap }}
-        camera={{ position: [0, 3.6, 17], fov: 30 }}
-        onCreated={({ camera }) => camera.lookAt(0, 1.9, 0)}
+        camera={{ position: [0, 5, 13.5], fov: 30 }}
         gl={{ antialias: true, alpha: true, powerPreference: "low-power" }}
       >
         <hemisphereLight args={["#f6f3ea", "#4e5b05", 1.1]} />
@@ -47,16 +46,19 @@ export default function SeedlingCanvas({ stage, label, labelText }: Props) {
           position={[5, 9, 6]}
           intensity={2.4}
           castShadow
-          shadow-mapSize={[1024, 1024]}
-          shadow-camera-left={-6}
-          shadow-camera-right={6}
-          shadow-camera-top={8}
-          shadow-camera-bottom={-4}
+          shadow-mapSize={[2048, 2048]}
+          shadow-camera-left={-9}
+          shadow-camera-right={9}
+          shadow-camera-top={14}
+          shadow-camera-bottom={-6}
+          shadow-camera-far={40}
           shadow-radius={6}
         />
         <directionalLight position={[-6, 3, -4]} intensity={0.6} color="#e2d5bc" />
-        <Seedling stage={stage} reduced={reduced} tilt={tilt} labelText={labelText} />
-        <mesh rotation-x={-Math.PI / 2} position-y={-2.2} receiveShadow>
+        {/* Luz de contorno: separa las hojas del fondo */}
+        <directionalLight position={[-2, 7, -9]} intensity={1.3} color="#f4f7ea" />
+        <CornPlant stage={stage} reduced={reduced} tilt={tilt} labelText={labelText} />
+        <mesh rotation-x={-Math.PI / 2} position-y={-0.01} receiveShadow>
           <planeGeometry args={[30, 30]} />
           <shadowMaterial opacity={0.16} />
         </mesh>

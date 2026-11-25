@@ -152,7 +152,7 @@
     },
     "growth": {
       "title": "From a seed to a new life",
-      "text": "Follow a corn seedling through the five stages of our process. Choose a stage to see it.",
+      "text": "Follow a corn seedling through the five stages of our process and on into your garden. Choose a stage to see it.",
       "stageLabel": "Stage",
       "loading": "Loading the 3D scene",
       "canvasLabel": "3D model of a corn seedling in its cell, at the selected stage",
@@ -181,8 +181,15 @@
           "name": "Ready for your garden",
           "time": "Corn: 10 to 14 days",
           "text": "With two or three true leaves and twelve to eighteen centimetres tall, it is labelled with its batch and dispatched."
+        },
+        {
+          "name": "In your garden",
+          "time": "After transplanting",
+          "text": "Planted with its cell, the corn keeps growing in your garden until it forms its stalk, leaves and ears."
         }
-      ]
+      ],
+      "pause": "Pause the growth",
+      "play": "Play the growth"
     },
     "cta": {
       "title": "A school, community or home garden?",
