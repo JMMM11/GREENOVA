@@ -1,8 +1,6 @@
 import { useI18n } from "../i18n/I18nProvider";
-import { pathFor } from "../i18n/routes";
 import { PageIntro } from "../sections/shared/PageIntro";
 import { Img, type ImageName } from "../components/ui/Img";
-import { Link } from "react-router";
 import { RevealImage } from "../components/motion/RevealImage";
 import { RevealText } from "../components/motion/RevealText";
 import { StaggeredFade } from "../components/motion/StaggeredFade";
@@ -15,7 +13,7 @@ const MOSAIC: Record<number, string[]> = {
 };
 
 export default function Projects() {
-  const { lang, d } = useI18n();
+  const { d } = useI18n();
   const p = d.projects;
   return (
     <>
@@ -40,18 +38,6 @@ export default function Projects() {
           </div>
         </section>
       ))}
-
-      <section className="section-y on-dark bg-olive-deep text-ivory" aria-labelledby="partners-h">
-        <div className="container-page grid gap-8 lg:grid-cols-12">
-          <StaggeredFade id="partners-h" text={p.pending.title} className="text-h2 lg:col-span-5" />
-          <div className="lg:col-span-6 lg:col-start-7">
-            <RevealText className="max-w-[48ch] text-lg leading-relaxed text-ivory/90">{p.pending.text}</RevealText>
-            <Link to={pathFor("contact", lang)} className="mt-6 inline-flex min-h-11 items-center font-medium text-ivory underline decoration-ivory/50 underline-offset-4 hover:decoration-ivory">
-              {d.nav.contact}
-            </Link>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

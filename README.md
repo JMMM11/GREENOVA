@@ -94,15 +94,11 @@ Sin `VITE_FORM_ENDPOINT`, el formulario y la tienda validan los datos pero **no 
 ## 9. Pendientes (requieren información o recursos de GREENOVA)
 
 - [x] Teléfono y WhatsApp: +507 6417-7723 (`src/lib/site.ts`). Sin correo público, por decisión de GREENOVA.
-- [ ] Datos legales entre corchetes en las páginas legales: razón social, RUC, domicilio fiscal, plazo de conservación y proveedor del formulario.
 - [ ] Servicio de formularios y pedidos (`VITE_FORM_ENDPOINT`). Mientras falte, el formulario y la tienda ofrecen enviar el mensaje o el pedido ya escrito por WhatsApp.
 - [ ] Dominio final (`SITE_URL`).
 - [ ] **Autorización escrita** del colegio y de las familias para publicar fotos y nombres de estudiantes menores de edad.
-- [ ] Fotografías individuales de pepino y tomate (ahora se usan fotos de brotes del ensayo).
-- [ ] Composición real de la bandeja mixta (se asumió 4 de cada especie) y confirmación de los precios vigentes.
 - [ ] Video definitivo grabado en la cámara (el actual se compone de fotos fijas).
 - [ ] Modelo 3D final si se quiere más realismo (el actual es procedural).
-- [ ] Clientes, huertos o colaboraciones con permiso para la sección Proyectos.
 - [ ] Logotipo en versión vectorial con el nombre (ahora el nombre se escribe con Manrope junto al isotipo).
 
 ## 10. Google Search Console

@@ -592,11 +592,7 @@
           "camara-laboratorio"
         ]
       }
-    ],
-    "pending": {
-      "title": "Colaboraciones",
-      "text": "Aquí publicaremos los huertos escolares, comunitarios y clientes que trabajen con GREENOVA, siempre con su permiso."
-    }
+    ]
   },
   "about": {
     "title": "Una empresa que nació en el laboratorio",
@@ -751,14 +747,13 @@
   },
   "legal": {
     "updated": "Última actualización",
-    "pendingNote": "Los campos entre corchetes están pendientes de completar por GREENOVA antes de publicar el sitio.",
     "privacy": {
       "title": "Aviso de privacidad",
       "sections": [
         {
           "h": "Responsable",
           "p": [
-            "[RAZÓN SOCIAL], con domicilio en [DOMICILIO FISCAL] y RUC [RUC], es responsable de los datos que envías desde este sitio. Contacto: +507 6417-7723 (teléfono y WhatsApp)."
+            "GREENOVA, empresa estudiantil de la Escuela Secundaria Pedro Pablo Sánchez (La Chorrera, Panamá Oeste), es responsable de los datos que envías desde este sitio. Contacto: +507 6417-7723 (teléfono y WhatsApp)."
           ]
         },
         {
@@ -777,13 +772,13 @@
         {
           "h": "Cuánto tiempo los guardamos",
           "p": [
-            "Mientras atendemos tu solicitud y hasta [PLAZO DE CONSERVACIÓN] después, salvo que la ley exija conservarlos más tiempo."
+            "Solo mientras atendemos tu solicitud o tu pedido, salvo que la ley exija conservarlos más tiempo."
           ]
         },
         {
           "h": "Quién más los recibe",
           "p": [
-            "El servicio que entrega los mensajes del formulario: [PROVEEDOR DEL FORMULARIO]. No compartimos tus datos con nadie más salvo obligación legal."
+            "El servicio que recibe los mensajes del formulario y los pedidos, y Google (Gemini API) para las preguntas que haces al asistente Maízter. No compartimos tus datos con nadie más salvo obligación legal."
           ]
         },
         {
@@ -831,12 +826,6 @@
           "h": "Responsabilidad",
           "p": [
             "GREENOVA no responde por el resultado del cultivo una vez trasplantado, que depende de las condiciones y el manejo del huerto."
-          ]
-        },
-        {
-          "h": "Datos de la empresa",
-          "p": [
-            "[RAZÓN SOCIAL] · RUC [RUC] · [DOMICILIO FISCAL] · Aviso de Operación [NÚMERO]."
           ]
         }
       ]

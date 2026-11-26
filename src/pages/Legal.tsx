@@ -16,7 +16,6 @@ function LegalPage({ k }: { k: "privacy" | "terms" | "cookies" }) {
           <p className="mt-4 text-[15px] text-ink-soft">
             {d.legal.updated}: <time dateTime="2026-11-24">{date}</time>
           </p>
-          <p className="mt-6 bg-clay px-4 py-3 text-[15px] leading-relaxed">{d.legal.pendingNote}</p>
         </header>
         <div className="flex max-w-[68ch] flex-col gap-10 lg:col-span-7 lg:col-start-6">
           {page.sections.map((s) => (

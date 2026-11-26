@@ -592,11 +592,7 @@
           "camara-laboratorio"
         ]
       }
-    ],
-    "pending": {
-      "title": "Partnerships",
-      "text": "This is where we will list the school gardens, community gardens and customers who work with GREENOVA, always with their permission."
-    }
+    ]
   },
   "about": {
     "title": "A company born in the lab",
@@ -751,14 +747,13 @@
   },
   "legal": {
     "updated": "Last updated",
-    "pendingNote": "Fields in square brackets must be completed by GREENOVA before the site goes live.",
     "privacy": {
       "title": "Privacy notice",
       "sections": [
         {
           "h": "Data controller",
           "p": [
-            "[LEGAL NAME], registered at [REGISTERED ADDRESS] with tax ID [RUC], is responsible for the data you send through this site. Contact: +507 6417-7723 (phone and WhatsApp)."
+            "GREENOVA, a student-run company at Escuela Secundaria Pedro Pablo Sánchez (La Chorrera, Panama Oeste), is responsible for the data you send through this site. Contact: +507 6417-7723 (phone and WhatsApp)."
           ]
         },
         {
@@ -777,13 +772,13 @@
         {
           "h": "How long we keep it",
           "p": [
-            "While we handle your request and for [RETENTION PERIOD] afterwards, unless the law requires us to keep it longer."
+            "Only while we handle your request or order, unless the law requires us to keep it longer."
           ]
         },
         {
           "h": "Who else receives it",
           "p": [
-            "The service that delivers form messages: [FORM PROVIDER]. We share your data with no one else unless legally required."
+            "The service that receives form messages and orders, and Google (Gemini API) for the questions you ask the Maízter assistant. We share your data with no one else unless legally required."
           ]
         },
         {
@@ -831,12 +826,6 @@
           "h": "Liability",
           "p": [
             "GREENOVA is not responsible for how a crop turns out once transplanted, since that depends on the garden's conditions and care."
-          ]
-        },
-        {
-          "h": "Company details",
-          "p": [
-            "[LEGAL NAME] · Tax ID [RUC] · [REGISTERED ADDRESS] · Business notice [NUMBER]."
           ]
         }
       ]
