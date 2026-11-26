@@ -7,6 +7,7 @@ import { usePageHead } from "../../lib/usePageHead";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { CartDrawer } from "../cart/CartDrawer";
+import { ChatWidget } from "../chat/ChatWidget";
 
 export function Layout({ lang }: { lang: Lang }) {
   const { pathname, hash } = useLocation();
@@ -36,6 +37,7 @@ export function Layout({ lang }: { lang: Lang }) {
         </main>
         <Footer />
         <CartDrawer />
+        <ChatWidget />
       </MotionConfig>
       </LazyMotion>
     </I18nProvider>

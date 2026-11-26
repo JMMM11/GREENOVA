@@ -1,10 +1,11 @@
 import { useMemo, useRef, useState } from "react";
 import { Link } from "react-router";
-import { ArrowLeft, CircleNotch, Copy } from "@phosphor-icons/react/ssr";
+import { ArrowLeft, CircleNotch, Copy, WhatsappLogo } from "@phosphor-icons/react/ssr";
 import { fill, useI18n } from "../../i18n/I18nProvider";
 import { pathFor } from "../../i18n/routes";
 import { SKU } from "../../data/catalog";
 import { money, useCart } from "../../lib/cart";
+import { COMPANY } from "../../lib/site";
 import { addDays, parseISO, toISO } from "../../lib/dates";
 import { buttonClass } from "../ui/Action";
 import { Field, inputClass } from "../../sections/contact/Field";
@@ -120,10 +121,13 @@ export function Checkout({ onBack }: { onBack: () => void }) {
         {status === "notConfigured" && (
           <div className="rounded-[var(--radius-media-sm)] bg-clay p-4">
             <p>{t.notConfigured}</p>
+            <a href={`${COMPANY.phone.whatsapp}?text=${encodeURIComponent(summary)}`} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-[var(--radius-ui)] bg-[#1f7a3a] px-4 font-medium text-ivory transition-colors hover:bg-[#17612e]">
+              <WhatsappLogo size={18} aria-hidden /> {t.whatsapp}
+            </a>
             <button
               type="button"
               onClick={() => navigator.clipboard?.writeText(summary).then(() => setCopied(true), () => setCopied(false))}
-              className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-[var(--radius-ui)] px-4 font-medium ring-1 ring-inset ring-ink/25 hover:bg-ink/5"
+              className="mt-3 ml-2 inline-flex min-h-11 items-center gap-2 rounded-[var(--radius-ui)] px-4 font-medium ring-1 ring-inset ring-ink/25 hover:bg-ink/5"
             >
               <Copy size={16} aria-hidden /> {copied ? t.copied : t.copy}
             </button>

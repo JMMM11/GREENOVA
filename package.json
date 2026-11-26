@@ -10,7 +10,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender.mjs",
     "preview": "node scripts/serve.mjs 4173",
-    "test": "node scripts/check-i18n.mjs && node --experimental-strip-types scripts/test-dates.mjs && node --experimental-strip-types scripts/test-validate.mjs && node --experimental-strip-types scripts/test-cart.mjs && node scripts/check-links.mjs"
+    "test": "node scripts/check-i18n.mjs && node --experimental-strip-types scripts/test-dates.mjs && node --experimental-strip-types scripts/test-validate.mjs && node --experimental-strip-types scripts/test-cart.mjs && node --experimental-strip-types scripts/test-chat.mjs && node scripts/check-links.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

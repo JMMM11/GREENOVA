@@ -1,4 +1,4 @@
-import { InstagramLogo, MapPin } from "@phosphor-icons/react/ssr";
+import { InstagramLogo, MapPin, Phone, WhatsappLogo } from "@phosphor-icons/react/ssr";
 import { useI18n } from "../i18n/I18nProvider";
 import { COMPANY } from "../lib/site";
 import { PageIntro } from "../sections/shared/PageIntro";
@@ -11,10 +11,11 @@ import { RevealText } from "../components/motion/RevealText";
 export default function Contact() {
   const { d } = useI18n();
   const c = d.contact;
-  const rows: [string, string | null][] = [
-    [c.direct.email, COMPANY.email],
-    [c.direct.phone, COMPANY.phone],
-    [c.direct.whatsapp, COMPANY.whatsapp],
+  const link = "inline-flex min-h-11 items-center gap-2 font-medium text-earth underline decoration-earth/40 underline-offset-4 hover:decoration-earth";
+  const rows = [
+    { label: c.direct.phone, href: `tel:${COMPANY.phone.tel}`, Icon: Phone, external: false },
+    { label: c.direct.whatsapp, href: COMPANY.phone.whatsapp, Icon: WhatsappLogo, external: true },
+    { label: c.direct.instagram, href: COMPANY.instagram.url, Icon: InstagramLogo, external: true },
   ];
   return (
     <>
@@ -28,18 +29,14 @@ export default function Contact() {
             <div>
               <h2 className="text-h3">{c.direct.title}</h2>
               <dl className="mt-4 flex flex-col gap-4 text-base">
-                <div>
-                  <dt className="text-[14px] text-ink-soft">{c.direct.instagram}</dt>
-                  <dd>
-                    <a href={COMPANY.instagram.url} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-2 font-medium text-earth underline decoration-earth/40 underline-offset-4 hover:decoration-earth">
-                      <InstagramLogo size={18} aria-hidden /> {COMPANY.instagram.handle}
-                    </a>
-                  </dd>
-                </div>
-                {rows.map(([label, value]) => (
+                {rows.map(({ label, href, Icon, external }) => (
                   <div key={label}>
                     <dt className="text-[14px] text-ink-soft">{label}</dt>
-                    <dd className={value ? "font-medium" : "text-ink-soft"}>{value ?? d.common.pending}</dd>
+                    <dd>
+                      <a href={href} className={link} {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
+                        <Icon size={18} aria-hidden /> {Icon === InstagramLogo ? COMPANY.instagram.handle : COMPANY.phone.label}
+                      </a>
+                    </dd>
                   </div>
                 ))}
               </dl>

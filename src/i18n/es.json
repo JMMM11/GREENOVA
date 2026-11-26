@@ -701,7 +701,6 @@
     },
     "direct": {
       "title": "Contacto directo",
-      "email": "Correo",
       "phone": "Teléfono",
       "whatsapp": "WhatsApp",
       "instagram": "Instagram"
@@ -710,8 +709,8 @@
   "form": {
     "title": "Formulario de pedido o consulta",
     "name": "Nombre",
-    "email": "Correo electrónico",
-    "phone": "Teléfono (opcional)",
+    "email": "Correo electrónico (opcional)",
+    "phone": "Teléfono o WhatsApp",
     "company": "Escuela, huerto o empresa (opcional)",
     "type": "Tipo de consulta",
     "types": {
@@ -729,16 +728,17 @@
     "sending": "Enviando…",
     "success": "Mensaje enviado. Te responderemos en horario escolar.",
     "networkError": "No pudimos enviar el mensaje. Revisa tu conexión e inténtalo de nuevo.",
-    "notConfigured": "El envío en línea está pendiente de configuración. Mientras tanto, escríbenos por Instagram a @greenova.4; tu mensaje no se ha enviado.",
+    "notConfigured": "El envío en línea está pendiente de configuración, así que tu mensaje no se ha enviado. Puedes mandarlo por WhatsApp: ya va escrito.",
     "prefill": "Quiero {species} para trasplantar el {date}.",
     "errors": {
       "name": "Escribe tu nombre.",
-      "email": "Escribe un correo válido, por ejemplo nombre@correo.com.",
+      "email": "Déjanos un teléfono o WhatsApp, o un correo válido.",
       "type": "Elige el tipo de consulta.",
       "message": "Cuéntanos un poco más: al menos 20 caracteres.",
       "privacy": "Debes aceptar el aviso de privacidad para enviar.",
       "summary": "Revisa los campos marcados."
-    }
+    },
+    "whatsapp": "Enviar por WhatsApp"
   },
   "footer": {
     "signoff": "Nos vemos en el huerto",
@@ -758,7 +758,7 @@
         {
           "h": "Responsable",
           "p": [
-            "[RAZÓN SOCIAL], con domicilio en [DOMICILIO FISCAL] y RUC [RUC], es responsable de los datos que envías desde este sitio. Contacto: [CORREO DE CONTACTO]."
+            "[RAZÓN SOCIAL], con domicilio en [DOMICILIO FISCAL] y RUC [RUC], es responsable de los datos que envías desde este sitio. Contacto: +507 6417-7723 (teléfono y WhatsApp)."
           ]
         },
         {
@@ -787,9 +787,15 @@
           ]
         },
         {
+          "h": "Asistente con IA",
+          "p": [
+            "Las preguntas que escribes en el asistente se envían a Google (Gemini API) para generar la respuesta. No las guardamos en nuestro sitio. Te pedimos no escribir datos personales en él. Cada persona puede hacer 2 preguntas al día."
+          ]
+        },
+        {
           "h": "Tus derechos",
           "p": [
-            "Puedes pedir acceso, corrección, cancelación u oposición al uso de tus datos escribiendo a [CORREO DE CONTACTO], conforme a la Ley 81 de 2019 sobre Protección de Datos Personales de la República de Panamá."
+            "Puedes pedir acceso, corrección, cancelación u oposición al uso de tus datos escribiendo a +507 6417-7723 (teléfono y WhatsApp), conforme a la Ley 81 de 2019 sobre Protección de Datos Personales de la República de Panamá."
           ]
         }
       ]
@@ -842,7 +848,8 @@
           "h": "Qué usamos",
           "p": [
             "Este sitio no instala cookies de rastreo, analítica, publicidad ni redes sociales. Las fuentes, imágenes y el video se sirven desde nuestro propio dominio.",
-            "La tienda guarda tu carrito en el almacenamiento local del navegador (localStorage) para que no se pierda al cambiar de página. Es técnico, no sirve para rastrearte y puedes borrarlo vaciando el carrito o los datos del sitio."
+            "La tienda guarda tu carrito en el almacenamiento local del navegador (localStorage) para que no se pierda al cambiar de página. Es técnico, no sirve para rastrearte y puedes borrarlo vaciando el carrito o los datos del sitio.",
+            "El asistente Maízter guarda en el mismo almacenamiento cuántas preguntas te quedan hoy, para aplicar el límite de dos por persona."
           ]
         },
         {
@@ -965,7 +972,7 @@
     "submit": "Enviar pedido",
     "sending": "Enviando…",
     "success": "Pedido enviado. Te escribiremos para confirmar disponibilidad y fecha.",
-    "notConfigured": "El envío en línea de pedidos está pendiente de configuración, así que tu pedido no se ha enviado. Cópialo y mándalo por Instagram a @greenova.4.",
+    "notConfigured": "El envío en línea de pedidos está pendiente de configuración, así que tu pedido no se ha enviado. Puedes mandarlo por WhatsApp con un toque: ya va escrito.",
     "copy": "Copiar pedido",
     "copied": "Pedido copiado",
     "noCharge": "Este formulario no cobra nada: GREENOVA confirma cada pedido por escrito.",
@@ -973,10 +980,62 @@
     "errors": {
       "contact": "Escribe un correo válido o un teléfono.",
       "date": "Elige una fecha a partir del {date}."
-    }
+    },
+    "whatsapp": "Enviar el pedido por WhatsApp"
   },
   "parallax": {
     "title": "Donde crece el futuro",
     "text": "Cada plantón sale de la cámara con su lote, su fecha y su historia."
+  },
+  "chat": {
+    "open": "Hablar con Maízter",
+    "close": "Cerrar el chat",
+    "hello": "¡Hola! Soy Maízter, la mazorca de GREENOVA. Pregúntame por los plantones, precios, pedidos o cómo trasplantar.",
+    "placeholder": "Escribe tu pregunta",
+    "send": "Enviar",
+    "remaining": "Te quedan {n} preguntas",
+    "remainingOne": "Te queda 1 pregunta",
+    "limit": "Llegaste al límite de 2 preguntas. Para más dudas, escríbenos desde la página de contacto.",
+    "contact": "Ir a contacto",
+    "notConfigured": "El asistente todavía no está disponible. Mientras tanto, escríbenos desde la página de contacto.",
+    "error": "No pude responder ahora. Inténtalo de nuevo en un momento.",
+    "thinking": "Escribiendo…",
+    "disclaimer": "Respuestas generadas con IA a partir de la información de GREENOVA.",
+    "name": "Maízter",
+    "role": "Agente IA de GREENOVA",
+    "online": "En línea",
+    "answered": "Respondido por IA",
+    "dismiss": "Ocultar mensaje",
+    "you": "Tú",
+    "tips": {
+      "home": [
+        "¡Hola! Soy Maízter. ¿Te ayudo a elegir tus plantones?",
+        "Nuestro maíz germinó al 100 % en 48 horas. ¡Pregúntame cómo!"
+      ],
+      "shop": [
+        "Desde 24 plantones tienes 10 % de descuento.",
+        "¿Dudas con tu pedido? Pregúntame."
+      ],
+      "products": [
+        "El tomate tarda más: se entrega entre los 25 y 35 días.",
+        "La celda se planta completa, ¡sin tocar la raíz!"
+      ],
+      "process": [
+        "Cada lote pasa por cinco etapas antes de llegar a ti.",
+        "¿Quieres saber qué pasa en la cámara? Pregúntame."
+      ],
+      "innovation": [
+        "Cinco sensores cuidan cada tanda en la cámara.",
+        "Todo queda registrado en una tarjeta microSD."
+      ],
+      "contact": [
+        "Si no prende en tres días, lo reponemos con su etiqueta.",
+        "Pregúntame antes de escribir, quizá te respondo al momento."
+      ],
+      "default": [
+        "¿Tienes una pregunta sobre GREENOVA? Pregúntame.",
+        "Soy Maízter, el asistente de GREENOVA."
+      ]
+    }
   }
 }

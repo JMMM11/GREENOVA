@@ -16,7 +16,9 @@ export function MobileMenu({ dark }: { dark: boolean }) {
   const panel = useRef<HTMLDivElement>(null);
   const { pathname } = useLocation();
 
-  useEffect(() => setOpen(false), [pathname]);
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
 
   useEffect(() => {
     if (!open) return;

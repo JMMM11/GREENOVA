@@ -43,6 +43,7 @@ export function buildHead(lang: Lang, page: PageKey | "notFound"): HeadTag[] {
           slogan: d.common.lema,
           url: SITE_URL + pathFor("home", lang),
           logo: `${SITE_URL}/logo.svg`,
+          telephone: COMPANY.phone.tel,
           sameAs: [COMPANY.instagram.url],
       },
       { "@context": "https://schema.org", "@type": "WebSite", name: "GREENOVA", url: SITE_URL + pathFor("home", lang), inLanguage: lang },

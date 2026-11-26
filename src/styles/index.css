@@ -184,11 +184,42 @@
   animation: pop 0.7s var(--ease-expo) both;
 }
 
+/* Maízter: balanceo, parpadeo y saludo. */
+@keyframes mascot-bob {
+  0%, 100% { transform: translateY(0) rotate(-3deg); }
+  50% { transform: translateY(-6px) rotate(3deg); }
+}
+@keyframes mascot-blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95% { transform: scaleY(0.1); }
+}
+@keyframes mascot-wave {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-18deg); }
+}
+.mascot-bob {
+  animation: mascot-bob 3.2s ease-in-out infinite;
+  transform-origin: 50% 100%;
+}
+.mascot-blink {
+  animation: mascot-blink 4.5s infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.mascot-wave {
+  animation: mascot-wave 1.6s ease-in-out infinite;
+  transform-box: fill-box;
+  transform-origin: 100% 100%;
+}
+
 /* Movimiento reducido: todo queda en su estado final. */
 @media (prefers-reduced-motion: reduce) {
   .word-rise,
   .rise,
-  .pop {
+  .pop,
+  .mascot-bob,
+  .mascot-blink,
+  .mascot-wave {
     animation: none;
   }
   [data-reveal] {

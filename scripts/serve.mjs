@@ -8,7 +8,7 @@ const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", "
 const exists = (p) => stat(p).then((s) => s.isFile(), () => false);
 
 createServer(async (req, res) => {
-  const path = normalize(decodeURIComponent(new URL(req.url, "http://x").pathname)).replace(/^([/\])+/, "");
+  const path = normalize(decodeURIComponent(new URL(req.url, "http://x").pathname)).replace(/^[/\\]+/, "");
   if (path.includes("..")) return res.writeHead(400).end();
   const candidates = [join(ROOT, path), join(ROOT, `${path}.html`), join(ROOT, path, "index.html")];
   for (const file of candidates) {

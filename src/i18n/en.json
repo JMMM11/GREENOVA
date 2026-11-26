@@ -701,7 +701,6 @@
     },
     "direct": {
       "title": "Direct contact",
-      "email": "Email",
       "phone": "Phone",
       "whatsapp": "WhatsApp",
       "instagram": "Instagram"
@@ -710,8 +709,8 @@
   "form": {
     "title": "Order or enquiry form",
     "name": "Name",
-    "email": "Email",
-    "phone": "Phone (optional)",
+    "email": "Email (optional)",
+    "phone": "Phone or WhatsApp",
     "company": "School, garden or business (optional)",
     "type": "What is it about?",
     "types": {
@@ -729,16 +728,17 @@
     "sending": "Sending…",
     "success": "Message sent. We'll reply during school hours.",
     "networkError": "We couldn't send your message. Check your connection and try again.",
-    "notConfigured": "Online sending hasn't been set up yet. In the meantime, message us on Instagram at @greenova.4; your message has not been sent.",
+    "notConfigured": "Online sending hasn't been set up yet, so your message has not been sent. You can send it on WhatsApp: it's already written.",
     "prefill": "I'd like {species} to transplant on {date}.",
     "errors": {
       "name": "Please enter your name.",
-      "email": "Please enter a valid email, for example name@example.com.",
+      "email": "Leave us a phone or WhatsApp number, or a valid email.",
       "type": "Please choose what your message is about.",
       "message": "Tell us a little more: at least 20 characters.",
       "privacy": "You need to accept the privacy notice to send.",
       "summary": "Please check the highlighted fields."
-    }
+    },
+    "whatsapp": "Send on WhatsApp"
   },
   "footer": {
     "signoff": "See you in the garden",
@@ -758,7 +758,7 @@
         {
           "h": "Data controller",
           "p": [
-            "[LEGAL NAME], registered at [REGISTERED ADDRESS] with tax ID [RUC], is responsible for the data you send through this site. Contact: [CONTACT EMAIL]."
+            "[LEGAL NAME], registered at [REGISTERED ADDRESS] with tax ID [RUC], is responsible for the data you send through this site. Contact: +507 6417-7723 (phone and WhatsApp)."
           ]
         },
         {
@@ -787,9 +787,15 @@
           ]
         },
         {
+          "h": "AI assistant",
+          "p": [
+            "The questions you type into the assistant are sent to Google (Gemini API) to generate the answer. We don't store them on our site. Please don't type personal data into it. Each person can ask 2 questions a day."
+          ]
+        },
+        {
           "h": "Your rights",
           "p": [
-            "You can ask to access, correct, delete or object to the use of your data by writing to [CONTACT EMAIL], under Panama's Law 81 of 2019 on Personal Data Protection."
+            "You can ask to access, correct, delete or object to the use of your data by writing to +507 6417-7723 (phone and WhatsApp), under Panama's Law 81 of 2019 on Personal Data Protection."
           ]
         }
       ]
@@ -842,7 +848,8 @@
           "h": "What we use",
           "p": [
             "This site sets no tracking, analytics, advertising or social media cookies. Fonts, images and video are served from our own domain.",
-            "The shop keeps your cart in your browser's local storage (localStorage) so it isn't lost when you change page. It is technical, isn't used to track you, and you can delete it by emptying the cart or clearing the site's data."
+            "The shop keeps your cart in your browser's local storage (localStorage) so it isn't lost when you change page. It is technical, isn't used to track you, and you can delete it by emptying the cart or clearing the site's data.",
+            "The Maízter assistant uses the same storage to remember how many questions you have left today, to apply the limit of two per person."
           ]
         },
         {
@@ -965,7 +972,7 @@
     "submit": "Send order",
     "sending": "Sending…",
     "success": "Order sent. We'll write to confirm availability and the date.",
-    "notConfigured": "Online ordering hasn't been set up yet, so your order has not been sent. Copy it and send it to us on Instagram at @greenova.4.",
+    "notConfigured": "Online ordering hasn't been set up yet, so your order has not been sent. You can send it on WhatsApp in one tap: it's already written.",
     "copy": "Copy order",
     "copied": "Order copied",
     "noCharge": "This form charges nothing: GREENOVA confirms every order in writing.",
@@ -973,10 +980,62 @@
     "errors": {
       "contact": "Enter a valid email or a phone number.",
       "date": "Choose a date from {date} onwards."
-    }
+    },
+    "whatsapp": "Send the order on WhatsApp"
   },
   "parallax": {
     "title": "Where the future grows",
     "text": "Every seedling leaves the chamber with its batch, its date and its story."
+  },
+  "chat": {
+    "open": "Chat with Maízter",
+    "close": "Close the chat",
+    "hello": "Hi! I'm Maízter, GREENOVA's corn cob. Ask me about our seedlings, prices, orders or how to transplant.",
+    "placeholder": "Type your question",
+    "send": "Send",
+    "remaining": "You have {n} questions left",
+    "remainingOne": "You have 1 question left",
+    "limit": "You've reached the limit of 2 questions. For anything else, write to us from the contact page.",
+    "contact": "Go to contact",
+    "notConfigured": "The assistant isn't available yet. In the meantime, write to us from the contact page.",
+    "error": "I couldn't answer right now. Please try again in a moment.",
+    "thinking": "Typing…",
+    "disclaimer": "AI-generated answers based on GREENOVA's information.",
+    "name": "Maízter",
+    "role": "GREENOVA's AI agent",
+    "online": "Online",
+    "answered": "Answered by AI",
+    "dismiss": "Hide message",
+    "you": "You",
+    "tips": {
+      "home": [
+        "Hi! I'm Maízter. Can I help you pick your seedlings?",
+        "Our corn hit 100% germination in 48 hours. Ask me how!"
+      ],
+      "shop": [
+        "Get 10% off from 24 seedlings.",
+        "Questions about your order? Ask me."
+      ],
+      "products": [
+        "Tomato takes longer: it's delivered at 25 to 35 days.",
+        "The cell goes into the ground whole, roots untouched!"
+      ],
+      "process": [
+        "Every batch goes through five stages before it reaches you.",
+        "Want to know what happens in the chamber? Ask me."
+      ],
+      "innovation": [
+        "Five sensors look after every batch in the chamber.",
+        "Everything is logged to a microSD card."
+      ],
+      "contact": [
+        "If it doesn't take within three days, we replace it with its label.",
+        "Ask me first, I might answer right away."
+      ],
+      "default": [
+        "Got a question about GREENOVA? Ask me.",
+        "I'm Maízter, GREENOVA's assistant."
+      ]
+    }
   }
 }

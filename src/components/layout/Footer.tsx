@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import { InstagramLogo, MapPin } from "@phosphor-icons/react/ssr";
+import { InstagramLogo, MapPin, Phone } from "@phosphor-icons/react/ssr";
 import { useI18n } from "../../i18n/I18nProvider";
 import { pathFor, type PageKey } from "../../i18n/routes";
 import { COMPANY } from "../../lib/site";
@@ -40,6 +40,9 @@ export function Footer() {
             </div>
             <div className="flex gap-6 md:col-span-5 md:justify-end">
               <address className="flex flex-col gap-1 not-italic">
+                <a href={`tel:${COMPANY.phone.tel}`} className={`${linkCls} gap-2 text-ink`}>
+                  <Phone size={18} aria-hidden /> {COMPANY.phone.label}
+                </a>
                 <a href={COMPANY.instagram.url} rel="noopener noreferrer" target="_blank" className={`${linkCls} gap-2 text-ink`}>
                   <InstagramLogo size={18} aria-hidden /> {COMPANY.instagram.handle}
                 </a>

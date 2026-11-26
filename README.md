@@ -44,6 +44,14 @@ La salida queda en `dist/`: un `.html` por ruta e idioma, `404.html`, `sitemap.x
 4. Despliega y comprueba que `/es/nosotros`, `/en/about` y `/es/tienda` cargan al recargar la página.
 5. Vercel añade `X-Robots-Tag: noindex` a los despliegues de vista previa; solo producción se indexa.
 
+### Asistente con IA (Gemini)
+
+- El chat llama a la función `api/chat.ts` de Vercel. La clave **nunca** llega al navegador.
+- En Vercel, añade `GEMINI_API_KEY` (créala en Google AI Studio) y, si quieres, `GEMINI_MODEL` (por defecto `gemini-3.5-flash-lite`). Vuelve a desplegar.
+- Límite de **2 preguntas por persona cada 24 h**: en el navegador y en el servidor por IP. El contador del servidor vive en la memoria de cada instancia; para un límite estricto entre instancias, cámbialo por Upstash Redis (Vercel Marketplace).
+- El conocimiento del asistente está al final de `api/chat.ts` (resumen de información.md). Edítalo ahí si cambian precios o datos.
+- `npm run dev` no ejecuta funciones de Vercel: para probar el chat en local usa `vercel dev`. Sin clave, el chat muestra que aún no está disponible.
+
 Sin `VITE_FORM_ENDPOINT`, el formulario y la tienda validan los datos pero **no envían nada**: muestran que el envío está pendiente y ofrecen copiar el pedido para mandarlo por Instagram. No se simula ningún envío.
 
 ## 6. Estructura
@@ -85,9 +93,9 @@ Sin `VITE_FORM_ENDPOINT`, el formulario y la tienda validan los datos pero **no 
 
 ## 9. Pendientes (requieren información o recursos de GREENOVA)
 
-- [ ] Correo, teléfono y WhatsApp públicos (`src/lib/site.ts`).
+- [x] Teléfono y WhatsApp: +507 6417-7723 (`src/lib/site.ts`). Sin correo público, por decisión de GREENOVA.
 - [ ] Datos legales entre corchetes en las páginas legales: razón social, RUC, domicilio fiscal, plazo de conservación y proveedor del formulario.
-- [ ] Servicio de formularios y pedidos (`VITE_FORM_ENDPOINT`).
+- [ ] Servicio de formularios y pedidos (`VITE_FORM_ENDPOINT`). Mientras falte, el formulario y la tienda ofrecen enviar el mensaje o el pedido ya escrito por WhatsApp.
 - [ ] Dominio final (`SITE_URL`).
 - [ ] **Autorización escrita** del colegio y de las familias para publicar fotos y nombres de estudiantes menores de edad.
 - [ ] Fotografías individuales de pepino y tomate (ahora se usan fotos de brotes del ensayo).

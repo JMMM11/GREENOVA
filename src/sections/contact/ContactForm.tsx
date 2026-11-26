@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router";
-import { CircleNotch } from "@phosphor-icons/react/ssr";
+import { CircleNotch, WhatsappLogo } from "@phosphor-icons/react/ssr";
+import { COMPANY } from "../../lib/site";
 import { fill, useI18n } from "../../i18n/I18nProvider";
 import { pathFor } from "../../i18n/routes";
 import { SPECIES, type SpeciesKey } from "../../data/species";
@@ -84,7 +85,7 @@ export function ContactForm() {
           {(a) => <input {...a} name="name" autoComplete="name" value={v.name} onChange={set("name")} className={inputClass} required />}
         </Field>
         <Field id="cf-email" label={f.email} error={err("email")}>
-          {(a) => <input {...a} type="email" name="email" autoComplete="email" inputMode="email" value={v.email} onChange={set("email")} className={inputClass} required />}
+          {(a) => <input {...a} type="email" name="email" autoComplete="email" inputMode="email" value={v.email} onChange={set("email")} className={inputClass} />}
         </Field>
         <Field id="cf-phone" label={f.phone}>
           {(a) => <input {...a} type="tel" name="phone" autoComplete="tel" value={v.phone} onChange={set("phone")} className={inputClass} />}
@@ -129,7 +130,14 @@ export function ContactForm() {
       <div role="status" aria-live="polite" className="text-base">
         {status === "success" && <p className="bg-sprout px-4 py-3 text-ink">{f.success}</p>}
         {status === "error" && <p className="bg-error/10 px-4 py-3 text-error">{f.networkError}</p>}
-        {status === "notConfigured" && <p className="bg-clay px-4 py-3 text-ink">{f.notConfigured}</p>}
+        {status === "notConfigured" && (
+          <div className="bg-clay px-4 py-3 text-ink">
+            <p>{f.notConfigured}</p>
+            <a href={`${COMPANY.phone.whatsapp}?text=${encodeURIComponent(`${v.name}: ${v.message}`)}`} target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex min-h-11 items-center gap-2 rounded-[var(--radius-ui)] bg-[#1f7a3a] px-4 font-medium text-ivory transition-colors hover:bg-[#17612e]">
+              <WhatsappLogo size={18} aria-hidden /> {f.whatsapp}
+            </a>
+          </div>
+        )}
       </div>
     </form>
   );
